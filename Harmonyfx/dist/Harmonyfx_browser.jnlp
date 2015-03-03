@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://localhost:8082/servlet/org.netbeans.modules.javafx.project.JnlpDownloadServlet/E%3A/Users/Hakim/Documents/NetBeansProjects/Harmonyfx/dist/" href="Harmonyfx_browser.jnlp">
+    <information>
+        <title>Harmonyfx</title>
+        <vendor>Muhammad Hakim A</vendor>
+        <homepage href="http://localhost:8082/servlet/org.netbeans.modules.javafx.project.JnlpDownloadServlet/E%3A/Users/Hakim/Documents/NetBeansProjects/Harmonyfx/dist/"/>
+        <description>Harmonyfx</description>
+        <offline-allowed/>
+        <shortcut>
+            <desktop/>
+        </shortcut>
+    </information>
+    <resources>
+        <j2se version="1.5+"/>
+        <extension name="JavaFX Runtime" href="http://dl.javafx.com/1.2/javafx-rt.jnlp"/>
+        <jar href="Harmonyfx.jar" main="true"/>
+        <jar href="lib/myid3.jar"/>
+        <jar href="lib/jakarta-regexp-1.5.jar"/>
+    </resources>
+    <applet-desc name="Harmonyfx" main-class="com.sun.javafx.runtime.adapter.Applet" width="600" height="300">
+        <param name="MainJavaFXScript" value="harmonyfx.Main">
+    </applet-desc>
+    <update check="background">
+</jnlp>
