@@ -1,0 +1,77 @@
+
+<project name="HibernateExample" default="resolve" 
+	xmlns:ivy="antlib:org.apache.ivy.ant"
+	xmlns:artifact="antlib:org.apache.maven.artifact.ant">
+	<!-- property name="prem.ivy.default.settings.dir" value="C:/apps/Apache/ivysettingsWithMavenIntegration" /> 
+	<import file="${prem.ivy.default.settings.dir}/antmvn.xml"/>
+	<ivy:settings file="C\:/apps/Apache/ivysettingsWithMavenIntegration/ivysettings.xml"/ >
+	
+	 <path id="maven-ant-tasks.classpath" path="C:\apps\Apache\apache-ant-1.8.2\lib\maven-ant-tasks-2.1.3.jar" />
+	  <typedef resource="org/apache/maven/artifact/ant/antlib.xml"
+	           uri="antlib:org.apache.maven.artifact.ant"
+	           classpathref="maven-ant-tasks.classpath" / -->
+
+	
+    <!-- some variables used -->
+    <property name="lib.dir" value="lib" />
+    <property name="build.dir" value="build" />
+    <property name="src.dir" value="src" />
+
+    
+    <!-- paths used for compilation and run  -->
+    <path id="lib.path.id">
+        <fileset dir="${lib.dir}" />
+	</path>
+    <path id="run.path.id">
+        <path refid="lib.path.id" />
+        <path location="${build.dir}" />
+    </path>
+    
+    <!-- ================================= 
+          target: resolve              
+         ================================= -->
+    <target name="resolve" description="--> retreive dependencies with ivy">
+        <ivy:retrieve/>
+    </target>    
+    
+    <!-- ================================= 
+          target: report              
+         ================================= -->
+    <target name="report" depends="resolve" description="--> generates a report of dependencies">
+    	<echoproperties></echoproperties>
+        <ivy:report todir="${build.dir}"/>
+    </target>
+
+    <!-- ================================= 
+          target: run
+         ================================= -->
+    <target name="run" depends="resolve" description="--> compile and run the project">
+        <mkdir dir="${build.dir}" />
+        <javac srcdir="${src.dir}" destdir="${build.dir}" classpathref="lib.path.id" />
+    	<property name="msg" value="hello ivy !"/>
+        <java classpathref="run.path.id" classname="example.Hello">
+        	<arg value="-message"/>
+        	<arg value="${msg}"/>
+    	</java>
+    </target>
+
+    <!-- ================================= 
+          target: clean              
+         ================================= -->
+    <target name="clean" description="--> clean the project">
+        <delete includeemptydirs="true">
+            <fileset dir="${basedir}">
+            	<exclude name="src/**" />
+            	<exclude name="build.xml" />
+              <exclude name="ivy.xml" />
+        	</fileset>
+    	</delete>
+    </target>
+	
+    <!-- ================================= 
+          target: clean-cache              
+         ================================= -->
+	<target name="clean-cache" description="--> clean the ivy cache">
+		<ivy:cleancache />
+	</target>
+</project>
