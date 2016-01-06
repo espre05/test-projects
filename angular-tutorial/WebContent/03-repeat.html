@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html ng-app="store">
+
+<head>
+
+<script type="text/javascript" src="jslib/angular/angular.min.js"></script>
+<link rel="stylesheet" type="text/css" href="jslib/bootstrap/bootstrap.min.css" />
+
+<script type="text/javascript" src="app.js"></script>
+<meta charset="ISO-8859-1">
+<title>Angular test</title>
+</head>
+
+<body>
+	<div class="alert alert-success">Bootstrap test</div>
+	<div ng-controller="StoreController as store">
+		<div ng-repeat="product in store.products">
+			<h2>
+				{{product.name}} <em class="pull-right">{{product.price}}</em>
+			</h2>
+
+			<p>{{product.description}}</p>
+			<button ng-show="product.canPurchase">Add to cart</button>
+		</div>
+	</div>
+</body>
+</html>
