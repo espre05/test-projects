@@ -8,7 +8,7 @@
 	app.controller("StoreController", [ '$http', function($http) {
 		var store = this; // should init to a local variable so it can be used in callback.
 		store.products = []; //initialize to empty to avoid error on first render.
-		$http.get('/products.json').success(function(data){
+		$http.get('products.json').success(function(data){
 			store.products = data;
 		});
 	
