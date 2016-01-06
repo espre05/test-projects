@@ -1,3 +1,0 @@
-<ivysettings>
-	<include file="${prem.ivy.default.settings.dir}/ivysettings.xml" />
-</ivysettings>
