@@ -1,0 +1,93 @@
+// These imports are needed further down
+// -------------------------------------
+import javax.xml.bind.JAXB
+import org.jooq.util.GenerationTool
+
+// Configure the Java plugin and the dependencies
+// ----------------------------------------------
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src' 
+            srcDir 'src-gen/main/java'
+        }
+        resources {
+        	//srcDirs 'src'
+        }
+    }
+    test{
+        java {
+            //srcDir 'src-test/unit/java'
+            //srcDir 'src-test/integration/java'
+        }
+        resources {
+            //srcDir 'src-test/resources'
+        }
+    }
+}
+
+dependencies {
+    compile 'org.jooq:jooq:3.6.0'
+	compile 'javax.persistence:persistence-api:1.0'
+    //runtime 'com.h2database:h2:1.4.177'
+    runtime 'postgresql:postgresql:9.1-901-1.jdbc4'
+    
+    testCompile 'junit:junit:4.11'
+}
+
+buildscript {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'org.jooq:jooq-codegen:3.6.0'
+        classpath 'com.h2database:h2:1.4.177'
+        classpath 'postgresql:postgresql:9.1-901-1.jdbc4'
+        
+        
+    }
+}
+
+task(generateJooq) << {
+
+	// Use your favourite XML builder to construct the code generation configuration file
+	// ----------------------------------------------------------------------------------
+	def writer = new StringWriter()
+	def xml = new groovy.xml.MarkupBuilder(writer)
+	.configuration('xmlns': 'http://www.jooq.org/xsd/jooq-codegen-3.6.0.xsd') {
+	    jdbc() {
+	        driver('org.postgresql.Driver')
+	        url('jdbc:postgresql://localhost/cora_db')
+	        user('cora')
+	        password('cora')
+	
+	    }
+	    generator() {
+	        database() {
+	        	inputSchema('cora')
+	        }
+	        generate() {
+	        }
+	        target() {
+	            packageName('gen.db.cora')
+	            directory('src-gen/main/java')
+	        }
+	    }
+	}
+	
+	// Run the code generator
+	// ----------------------
+	GenerationTool.main(
+	    JAXB.unmarshal(new StringReader(writer.toString()), org.jooq.util.jaxb.Configuration.class)
+	)
+}

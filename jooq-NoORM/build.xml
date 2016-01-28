@@ -1,0 +1,28 @@
+<project name="jooq" default="generate-test-classes" basedir=".">
+
+	<property name="path.to.jooq.distribution" value="C:\apps\jOOQ-3.7.2\jOOQ-lib" />
+<!-- Task definition -->
+<taskdef name="generate-classes" classname="org.jooq.util.GenerationTask">
+  <classpath>
+    <fileset dir="${path.to.jooq.distribution}">
+      <include name="jooq-2.5.2.jar"/>
+      <include name="jooq-meta-2.5.2.jar"/>
+      <include name="jooq-codegen-2.5.2.jar"/>
+    </fileset>
+    <fileset dir="C:\apps\jdbc_drivers\postgresql">
+      <include name="postgresql-9.4-1201.jdbc4.jar"/>
+    </fileset>
+  </classpath>
+</taskdef>
+
+<!-- Run the code generation task -->
+<target name="generate-test-classes">
+  <generate-classes
+      jdbcurl="jdbc:postgresql://localhost/cora_db"
+      jdbcuser="cora"
+      jdbcpassword="cora"
+      generatordatabaseinputschema="cora"
+      generatortargetpackage="org.jooq.test.generatedclasses"
+      generatortargetdirectory="${basedir}/src"/>
+</target>
+</project>
