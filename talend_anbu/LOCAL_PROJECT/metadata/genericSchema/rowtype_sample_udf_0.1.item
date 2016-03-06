@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_HNgH0McCEeWJYpbK-ooJcQ" comment="connectionComment" label="connectionLabel" dataPackage="_HNgH0ccCEeWJYpbK-ooJcQ" mappingTypeUsed="true" mappingTypeId="postgres_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_HNgH0ccCEeWJYpbK-ooJcQ" dataManager="_HNgH0McCEeWJYpbK-ooJcQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_HNgH0scCEeWJYpbK-ooJcQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HNgH08cCEeWJYpbK-ooJcQ" name="sampleid" id="7147" label="sampleid" length="19" sourceType="INT8" talendType="id_Long">
+        <initialValue xmi:id="_HNgH1McCEeWJYpbK-ooJcQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HNgH1ccCEeWJYpbK-ooJcQ" name="plateid" id="7148" label="plateid" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_HNgH1scCEeWJYpbK-ooJcQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HNgH18cCEeWJYpbK-ooJcQ" name="dt_birth" id="7149" label="dt_birth" length="-1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_HNgH2McCEeWJYpbK-ooJcQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HNgH2ccCEeWJYpbK-ooJcQ" name="sequencing_resolution" id="7150" label="sequencing_resolution" length="30" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_HNgH2scCEeWJYpbK-ooJcQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HNgH28cCEeWJYpbK-ooJcQ" name="sex" id="7151" label="sex" length="10" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_HNgH3McCEeWJYpbK-ooJcQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HNgH3ccCEeWJYpbK-ooJcQ" name="workspace" id="7152" label="workspace" length="100" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_HNgH3scCEeWJYpbK-ooJcQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HNgH38cCEeWJYpbK-ooJcQ" name="dt_collection" id="7153" label="dt_collection" length="-1" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_HNgH4McCEeWJYpbK-ooJcQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HNgH4ccCEeWJYpbK-ooJcQ" name="locus" id="7154" label="locus" length="10" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_HNgH4scCEeWJYpbK-ooJcQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HNgH48cCEeWJYpbK-ooJcQ" name="species" id="7155" label="species" length="10" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_HNgH5McCEeWJYpbK-ooJcQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HNgH5ccCEeWJYpbK-ooJcQ" name="firstname" id="7156" label="firstname" length="20" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_HNgH5scCEeWJYpbK-ooJcQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_HNgH58cCEeWJYpbK-ooJcQ" name="lastname" id="7157" label="lastname" length="20" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_HNgH6McCEeWJYpbK-ooJcQ"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

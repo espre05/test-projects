@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" confirmationNeeded="false" name="Default">
+  <contextParameter comment="" name="prod_genologics_Database" prompt="prod_genologics_Database?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter comment="" name="prod_genologics_Port" prompt="prod_genologics_Port?" promptNeeded="false" type="id_String" value="5432"/>
+  <contextParameter comment="" name="prod_genologics_Schema" prompt="prod_genologics_Schema?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter comment="" name="prod_genologics_Password" prompt="prod_genologics_Password?" promptNeeded="false" type="id_Password" value="/i/QWU9WKoOv0966PkPBhA=="/>
+  <contextParameter comment="" name="prod_genologics_Server" prompt="prod_genologics_Server?" promptNeeded="false" type="id_String" value="10.1.10.13"/>
+  <contextParameter comment="" name="prod_genologics_Login" prompt="prod_genologics_Login?" promptNeeded="false" type="id_String" value="proteo"/>
+</talendfile:ContextType>
