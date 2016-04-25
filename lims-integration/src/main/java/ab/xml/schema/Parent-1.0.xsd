@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+           xmlns="http://www.yourdomain.com/FIXED/EXAMPLE"
+           targetNamespace="http://www.yourdomain.com/FIXED/EXAMPLE"
+           elementFormDefault="qualified"
+           version="1.000"
+           id="some_id"
+ -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+    <xs:include schemaLocation="CreateRunRequest.xsd"/>
+    <xs:include schemaLocation="SequentaOrders-1.0.xsd"/>
+</xs:schema>

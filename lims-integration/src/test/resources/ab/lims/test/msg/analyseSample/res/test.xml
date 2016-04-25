@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<request msgType="CREATERUN_REQ">
+    <runs>
+        <run id="150118_M00713_0276" msgType="CREATERUN_REQ">
+            <lane id="150118_M00713_0276_000000000-ABPV6">
+                <experiments>
+                    <experiment id="CellPool_LowCtrl_0149803107_IgK_r1">
+                        <patient-id>CellPool_LowCtrl</patient-id>
+                        <project-group>CellPool_LowCtrl</project-group>
+                        <sample-type>CellPool_LowCtrl</sample-type>
+                        <tissue-type />
+                        <disease-type />
+                        <received-material />
+                        <sample-external-id />
+                        <sample>CellPool_LowCtrl_0149803107</sample>
+                        <aliquot>CellPool_LowCtrl_0149803107</aliquot>
+                        <sample-path>CellPool_LowCtrl_0149803107</sample-path>
+                        <compartment>cellular</compartment>
+                        <cell-process-route />
+                        <assay>hIGK.V.0_DNA.J.0_s.3.q.1455_d.6_g.0</assay>
+                        <primer-set>
+                            <primer>
+                                <input-ng>6000.0</input-ng>
+                                <tag-id>1277</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>E11</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>E11</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                        </primer-set>
+                    </experiment>
+                    <experiment id="S13041600057_IgK_r1">
+                        <disease-type>aALL</disease-type>
+                        <received-material>bone_marrow</received-material>
+                        <patient-id>CLIA49</patient-id>
+                        <project-group>CLIA49</project-group>
+                        <sample-type>Calibration</sample-type>
+                        <tissue-type>Bone Marrow</tissue-type>
+                        <sample-external-id>86127</sample-external-id>
+                        <submitter-name>Lacayo MD, Norman</submitter-name>
+                        <submitter-id>1009</submitter-id>
+                        <sample>S13041600057</sample>
+                        <aliquot>S13041600057</aliquot>
+                        <sample-path>S13041600057</sample-path>
+                        <compartment>cellular</compartment>
+                        <cell-process-route />
+                        <assay>hIGK.V.0_DNA.J.0_s.3.q.1455_d.6_g.0</assay>
+                        <primer-set>
+                            <primer>
+                                <input-ng>1081.8</input-ng>
+                                <tag-id>1197</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>E01</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>E01</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                        </primer-set>
+                    </experiment>
+                    <experiment id="S13041600057_TCB_r1">
+                        <disease-type>aALL</disease-type>
+                        <received-material>bone_marrow</received-material>
+                        <patient-id>CLIA49</patient-id>
+                        <project-group>CLIA49</project-group>
+                        <sample-type>Calibration</sample-type>
+                        <tissue-type>Bone Marrow</tissue-type>
+                        <sample-external-id>86127</sample-external-id>
+                        <submitter-name>Lacayo MD, Norman</submitter-name>
+                        <submitter-id>1009</submitter-id>
+                        <sample>S13041600057</sample>
+                        <aliquot>S13041600057</aliquot>
+                        <sample-path>S13041600057</sample-path>
+                        <compartment>cellular</compartment>
+                        <cell-process-route />
+                        <assay>hTCRB.V.1_DNA.J.1_s.3_d.8_g.0</assay>
+                        <primer-set>
+                            <primer>
+                                <input-ng>1081.8</input-ng>
+                                <tag-id>1198</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>F01</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>F01</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                        </primer-set>
+                    </experiment>
+                    <experiment id="S13041600057_IgHD_r1">
+                        <disease-type>aALL</disease-type>
+                        <received-material>bone_marrow</received-material>
+                        <patient-id>CLIA49</patient-id>
+                        <project-group>CLIA49</project-group>
+                        <sample-type>Calibration</sample-type>
+                        <tissue-type>Bone Marrow</tissue-type>
+                        <sample-external-id>86127</sample-external-id>
+                        <submitter-name>Lacayo MD, Norman</submitter-name>
+                        <submitter-id>1009</submitter-id>
+                        <sample>S13041600057</sample>
+                        <aliquot>S13041600057</aliquot>
+                        <sample-path>S13041600057</sample-path>
+                        <compartment>cellular</compartment>
+                        <cell-process-route />
+                        <assay>hIGH.D.0_DNA.J.0_s.3_d.6_g.0</assay>
+                        <primer-set>
+                            <primer>
+                                <input-ng>1081.8</input-ng>
+                                <tag-id>1196</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>D01</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>D01</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                        </primer-set>
+                    </experiment>
+                    <experiment id="WTR_130417_TCG_r1">
+                        <patient-id>Water</patient-id>
+                        <project-group>Water</project-group>
+                        <sample-type>Water</sample-type>
+                        <tissue-type />
+                        <disease-type />
+                        <received-material />
+                        <sample-external-id />
+                        <sample>WTR_130417</sample>
+                        <aliquot>WTR_130417</aliquot>
+                        <sample-path>WTR_130417</sample-path>
+                        <compartment>cellular</compartment>
+                        <cell-process-route />
+                        <assay>hTCRG.V.0_DNA.J.0_s.3_d.8_g.0</assay>
+                        <primer-set>
+                            <primer>
+                                <input-ng>0.0</input-ng>
+                                <tag-id>1288</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>H12</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>H12</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                        </primer-set>
+                    </experiment>
+                    <experiment id="CellPool_HighCtrl_0132865570_IgK_r1">
+                        <patient-id>CellPool_HighCtrl</patient-id>
+                        <project-group>CellPool_HighCtrl</project-group>
+                        <sample-type>CellPool_HighCtrl</sample-type>
+                        <tissue-type />
+                        <disease-type />
+                        <received-material />
+                        <sample-external-id />
+                        <sample>CellPool_HighCtrl_0132865570</sample>
+                        <aliquot>CellPool_HighCtrl_0132865570</aliquot>
+                        <sample-path>CellPool_HighCtrl_0132865570</sample-path>
+                        <compartment>cellular</compartment>
+                        <cell-process-route />
+                        <assay>hIGK.V.0_DNA.J.0_s.3.q.1455_d.6_g.0</assay>
+                        <primer-set>
+                            <primer>
+                                <input-ng>2000.0</input-ng>
+                                <tag-id>1269</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>E10</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>E10</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                        </primer-set>
+                    </experiment>
+                    <experiment id="S13041600057_IgH_r1">
+                        <disease-type>aALL</disease-type>
+                        <received-material>bone_marrow</received-material>
+                        <patient-id>CLIA49</patient-id>
+                        <project-group>CLIA49</project-group>
+                        <sample-type>Calibration</sample-type>
+                        <tissue-type>Bone Marrow</tissue-type>
+                        <sample-external-id>86127</sample-external-id>
+                        <submitter-name>Lacayo MD, Norman</submitter-name>
+                        <submitter-id>1009</submitter-id>
+                        <sample>S13041600057</sample>
+                        <aliquot>S13041600057</aliquot>
+                        <sample-path>S13041600057</sample-path>
+                        <compartment>cellular</compartment>
+                        <cell-process-route />
+                        <assay>hIGH.V.BCEframe.2_DNA.J.0_s.3_d.6</assay>
+                        <primer-set>
+                            <primer>
+                                <input-ng>1081.8</input-ng>
+                                <tag-id>1194</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>C01</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>B01</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                            <primer>
+                                <input-ng>1081.8</input-ng>
+                                <tag-id>1195</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>B01</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>C01</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                            <primer>
+                                <input-ng>1081.8</input-ng>
+                                <tag-id>1193</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>A01</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>A01</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                        </primer-set>
+                    </experiment>
+                    <experiment id="WTR_130417_IgK_r1">
+                        <patient-id>Water</patient-id>
+                        <project-group>Water</project-group>
+                        <sample-type>Water</sample-type>
+                        <tissue-type />
+                        <disease-type />
+                        <received-material />
+                        <sample-external-id />
+                        <sample>WTR_130417</sample>
+                        <aliquot>WTR_130417</aliquot>
+                        <sample-path>WTR_130417</sample-path>
+                        <compartment>cellular</compartment>
+                        <cell-process-route />
+                        <assay>hIGK.V.0_DNA.J.0_s.3.q.1455_d.6_g.0</assay>
+                        <primer-set>
+                            <primer>
+                                <input-ng>0.0</input-ng>
+                                <tag-id>1285</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>E12</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>E12</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                        </primer-set>
+                    </experiment>
+                    <experiment id="S13041600057_TCD_r1">
+                        <disease-type>aALL</disease-type>
+                        <received-material>bone_marrow</received-material>
+                        <patient-id>CLIA49</patient-id>
+                        <project-group>CLIA49</project-group>
+                        <sample-type>Calibration</sample-type>
+                        <tissue-type>Bone Marrow</tissue-type>
+                        <sample-external-id>86127</sample-external-id>
+                        <submitter-name>Lacayo MD, Norman</submitter-name>
+                        <submitter-id>1009</submitter-id>
+                        <sample>S13041600057</sample>
+                        <aliquot>S13041600057</aliquot>
+                        <sample-path>S13041600057</sample-path>
+                        <compartment>cellular</compartment>
+                        <cell-process-route />
+                        <assay>hTCRD.VD.0_DNA.DJ.0_s.3_d.8_g.0</assay>
+                        <primer-set>
+                            <primer>
+                                <input-ng>1081.8</input-ng>
+                                <tag-id>1199</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>G01</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>G01</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                        </primer-set>
+                    </experiment>
+                    <experiment id="S13041600057_TCG_r1">
+                        <disease-type>aALL</disease-type>
+                        <received-material>bone_marrow</received-material>
+                        <patient-id>CLIA49</patient-id>
+                        <project-group>CLIA49</project-group>
+                        <sample-type>Calibration</sample-type>
+                        <tissue-type>Bone Marrow</tissue-type>
+                        <sample-external-id>86127</sample-external-id>
+                        <submitter-name>Lacayo MD, Norman</submitter-name>
+                        <submitter-id>1009</submitter-id>
+                        <sample>S13041600057</sample>
+                        <aliquot>S13041600057</aliquot>
+                        <sample-path>S13041600057</sample-path>
+                        <compartment>cellular</compartment>
+                        <cell-process-route />
+                        <assay>hTCRG.V.0_DNA.J.0_s.3_d.8_g.0</assay>
+                        <primer-set>
+                            <primer>
+                                <input-ng>1081.8</input-ng>
+                                <tag-id>1200</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>H01</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>H01</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                        </primer-set>
+                    </experiment>
+                    <experiment id="WTR_130417_TCD_r1">
+                        <patient-id>Water</patient-id>
+                        <project-group>Water</project-group>
+                        <sample-type>Water</sample-type>
+                        <tissue-type />
+                        <disease-type />
+                        <received-material />
+                        <sample-external-id />
+                        <sample>WTR_130417</sample>
+                        <aliquot>WTR_130417</aliquot>
+                        <sample-path>WTR_130417</sample-path>
+                        <compartment>cellular</compartment>
+                        <cell-process-route />
+                        <assay>hTCRD.VD.0_DNA.DJ.0_s.3_d.8_g.0</assay>
+                        <primer-set>
+                            <primer>
+                                <input-ng>0.0</input-ng>
+                                <tag-id>1287</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>G12</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>G12</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                        </primer-set>
+                    </experiment>
+                    <experiment id="WTR_130417_TCB_r1">
+                        <patient-id>Water</patient-id>
+                        <project-group>Water</project-group>
+                        <sample-type>Water</sample-type>
+                        <tissue-type />
+                        <disease-type />
+                        <received-material />
+                        <sample-external-id />
+                        <sample>WTR_130417</sample>
+                        <aliquot>WTR_130417</aliquot>
+                        <sample-path>WTR_130417</sample-path>
+                        <compartment>cellular</compartment>
+                        <cell-process-route />
+                        <assay>hTCRB.V.1_DNA.J.1_s.3_d.8_g.0</assay>
+                        <primer-set>
+                            <primer>
+                                <input-ng>0.0</input-ng>
+                                <tag-id>1286</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>F12</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>F12</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                        </primer-set>
+                    </experiment>
+                    <experiment id="WTR_130417_IgH_r1">
+                        <patient-id>Water</patient-id>
+                        <project-group>Water</project-group>
+                        <sample-type>Water</sample-type>
+                        <tissue-type />
+                        <disease-type />
+                        <received-material />
+                        <sample-external-id />
+                        <sample>WTR_130417</sample>
+                        <aliquot>WTR_130417</aliquot>
+                        <sample-path>WTR_130417</sample-path>
+                        <compartment>cellular</compartment>
+                        <cell-process-route />
+                        <assay>hIGH.V.BCEframe.2_DNA.J.0_s.3_d.6</assay>
+                        <primer-set>
+                            <primer>
+                                <input-ng>0.0</input-ng>
+                                <tag-id>1282</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>C12</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>C12</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                            <primer>
+                                <input-ng>0.0</input-ng>
+                                <tag-id>1283</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>A12</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>C12</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                            <primer>
+                                <input-ng>0.0</input-ng>
+                                <tag-id>1281</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>C12</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>B12</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                        </primer-set>
+                    </experiment>
+                    <experiment id="WTR_130417_IgHD_r1">
+                        <patient-id>Water</patient-id>
+                        <project-group>Water</project-group>
+                        <sample-type>Water</sample-type>
+                        <tissue-type />
+                        <disease-type />
+                        <received-material />
+                        <sample-external-id />
+                        <sample>WTR_130417</sample>
+                        <aliquot>WTR_130417</aliquot>
+                        <sample-path>WTR_130417</sample-path>
+                        <compartment>cellular</compartment>
+                        <cell-process-route />
+                        <assay>hIGH.D.0_DNA.J.0_s.3_d.6_g.0</assay>
+                        <primer-set>
+                            <primer>
+                                <input-ng>0.0</input-ng>
+                                <tag-id>1284</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>D12</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>D12</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                        </primer-set>
+                    </experiment>
+                </experiments>
+            </lane>
+        </run>
+        <run id="150118_M00713_0276" msgType="CREATERUN_REQ">
+            <lane id="150118_M00713_0276_000000000-ABPV6">
+                <experiments>
+                    <experiment id="CellPool_LowCtrl_0149803107_IgK_r1">
+                        <patient-id>CellPool_LowCtrl</patient-id>
+                        <project-group>CellPool_LowCtrl</project-group>
+                        <sample-type>CellPool_LowCtrl</sample-type>
+                        <tissue-type />
+                        <disease-type />
+                        <received-material />
+                        <sample-external-id />
+                        <sample>CellPool_LowCtrl_0149803107</sample>
+                        <aliquot>CellPool_LowCtrl_0149803107</aliquot>
+                        <sample-path>CellPool_LowCtrl_0149803107</sample-path>
+                        <compartment>cellular</compartment>
+                        <cell-process-route />
+                        <assay>hIGK.V.0_DNA.J.0_s.3.q.1455_d.6_g.0</assay>
+                        <primer-set>
+                            <primer>
+                                <input-ng>6000.0</input-ng>
+                                <tag-id>1277</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>E11</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>E11</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                        </primer-set>
+                    </experiment>
+                    <experiment id="S13041600057_IgK_r1">
+                        <disease-type>aALL</disease-type>
+                        <received-material>bone_marrow</received-material>
+                        <patient-id>CLIA49</patient-id>
+                        <project-group>CLIA49</project-group>
+                        <sample-type>Calibration</sample-type>
+                        <tissue-type>Bone Marrow</tissue-type>
+                        <sample-external-id>86127</sample-external-id>
+                        <submitter-name>Lacayo MD, Norman</submitter-name>
+                        <submitter-id>1009</submitter-id>
+                        <sample>S13041600057</sample>
+                        <aliquot>S13041600057</aliquot>
+                        <sample-path>S13041600057</sample-path>
+                        <compartment>cellular</compartment>
+                        <cell-process-route />
+                        <assay>hIGK.V.0_DNA.J.0_s.3.q.1455_d.6_g.0</assay>
+                        <primer-set>
+                            <primer>
+                                <input-ng>1081.8</input-ng>
+                                <tag-id>1197</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>E01</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>E01</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                        </primer-set>
+                    </experiment>
+                    <experiment id="S13041600057_TCB_r1">
+                        <disease-type>aALL</disease-type>
+                        <received-material>bone_marrow</received-material>
+                        <patient-id>CLIA49</patient-id>
+                        <project-group>CLIA49</project-group>
+                        <sample-type>Calibration</sample-type>
+                        <tissue-type>Bone Marrow</tissue-type>
+                        <sample-external-id>86127</sample-external-id>
+                        <submitter-name>Lacayo MD, Norman</submitter-name>
+                        <submitter-id>1009</submitter-id>
+                        <sample>S13041600057</sample>
+                        <aliquot>S13041600057</aliquot>
+                        <sample-path>S13041600057</sample-path>
+                        <compartment>cellular</compartment>
+                        <cell-process-route />
+                        <assay>hTCRB.V.1_DNA.J.1_s.3_d.8_g.0</assay>
+                        <primer-set>
+                            <primer>
+                                <input-ng>1081.8</input-ng>
+                                <tag-id>1198</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>F01</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>F01</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                        </primer-set>
+                    </experiment>
+                    <experiment id="S13041600057_IgHD_r1">
+                        <disease-type>aALL</disease-type>
+                        <received-material>bone_marrow</received-material>
+                        <patient-id>CLIA49</patient-id>
+                        <project-group>CLIA49</project-group>
+                        <sample-type>Calibration</sample-type>
+                        <tissue-type>Bone Marrow</tissue-type>
+                        <sample-external-id>86127</sample-external-id>
+                        <submitter-name>Lacayo MD, Norman</submitter-name>
+                        <submitter-id>1009</submitter-id>
+                        <sample>S13041600057</sample>
+                        <aliquot>S13041600057</aliquot>
+                        <sample-path>S13041600057</sample-path>
+                        <compartment>cellular</compartment>
+                        <cell-process-route />
+                        <assay>hIGH.D.0_DNA.J.0_s.3_d.6_g.0</assay>
+                        <primer-set>
+                            <primer>
+                                <input-ng>1081.8</input-ng>
+                                <tag-id>1196</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>D01</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>D01</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                        </primer-set>
+                    </experiment>
+                    <experiment id="WTR_130417_TCG_r1">
+                        <patient-id>Water</patient-id>
+                        <project-group>Water</project-group>
+                        <sample-type>Water</sample-type>
+                        <tissue-type />
+                        <disease-type />
+                        <received-material />
+                        <sample-external-id />
+                        <sample>WTR_130417</sample>
+                        <aliquot>WTR_130417</aliquot>
+                        <sample-path>WTR_130417</sample-path>
+                        <compartment>cellular</compartment>
+                        <cell-process-route />
+                        <assay>hTCRG.V.0_DNA.J.0_s.3_d.8_g.0</assay>
+                        <primer-set>
+                            <primer>
+                                <input-ng>0.0</input-ng>
+                                <tag-id>1288</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>H12</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>H12</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                        </primer-set>
+                    </experiment>
+                    <experiment id="CellPool_HighCtrl_0132865570_IgK_r1">
+                        <patient-id>CellPool_HighCtrl</patient-id>
+                        <project-group>CellPool_HighCtrl</project-group>
+                        <sample-type>CellPool_HighCtrl</sample-type>
+                        <tissue-type />
+                        <disease-type />
+                        <received-material />
+                        <sample-external-id />
+                        <sample>CellPool_HighCtrl_0132865570</sample>
+                        <aliquot>CellPool_HighCtrl_0132865570</aliquot>
+                        <sample-path>CellPool_HighCtrl_0132865570</sample-path>
+                        <compartment>cellular</compartment>
+                        <cell-process-route />
+                        <assay>hIGK.V.0_DNA.J.0_s.3.q.1455_d.6_g.0</assay>
+                        <primer-set>
+                            <primer>
+                                <input-ng>2000.0</input-ng>
+                                <tag-id>1269</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>E10</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>E10</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                        </primer-set>
+                    </experiment>
+                    <experiment id="S13041600057_IgH_r1">
+                        <disease-type>aALL</disease-type>
+                        <received-material>bone_marrow</received-material>
+                        <patient-id>CLIA49</patient-id>
+                        <project-group>CLIA49</project-group>
+                        <sample-type>Calibration</sample-type>
+                        <tissue-type>Bone Marrow</tissue-type>
+                        <sample-external-id>86127</sample-external-id>
+                        <submitter-name>Lacayo MD, Norman</submitter-name>
+                        <submitter-id>1009</submitter-id>
+                        <sample>S13041600057</sample>
+                        <aliquot>S13041600057</aliquot>
+                        <sample-path>S13041600057</sample-path>
+                        <compartment>cellular</compartment>
+                        <cell-process-route />
+                        <assay>hIGH.V.BCEframe.2_DNA.J.0_s.3_d.6</assay>
+                        <primer-set>
+                            <primer>
+                                <input-ng>1081.8</input-ng>
+                                <tag-id>1194</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>C01</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>B01</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                            <primer>
+                                <input-ng>1081.8</input-ng>
+                                <tag-id>1195</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>B01</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>C01</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                            <primer>
+                                <input-ng>1081.8</input-ng>
+                                <tag-id>1193</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>A01</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>A01</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                        </primer-set>
+                    </experiment>
+                    <experiment id="WTR_130417_IgK_r1">
+                        <patient-id>Water</patient-id>
+                        <project-group>Water</project-group>
+                        <sample-type>Water</sample-type>
+                        <tissue-type />
+                        <disease-type />
+                        <received-material />
+                        <sample-external-id />
+                        <sample>WTR_130417</sample>
+                        <aliquot>WTR_130417</aliquot>
+                        <sample-path>WTR_130417</sample-path>
+                        <compartment>cellular</compartment>
+                        <cell-process-route />
+                        <assay>hIGK.V.0_DNA.J.0_s.3.q.1455_d.6_g.0</assay>
+                        <primer-set>
+                            <primer>
+                                <input-ng>0.0</input-ng>
+                                <tag-id>1285</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>E12</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>E12</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                        </primer-set>
+                    </experiment>
+                    <experiment id="S13041600057_TCD_r1">
+                        <disease-type>aALL</disease-type>
+                        <received-material>bone_marrow</received-material>
+                        <patient-id>CLIA49</patient-id>
+                        <project-group>CLIA49</project-group>
+                        <sample-type>Calibration</sample-type>
+                        <tissue-type>Bone Marrow</tissue-type>
+                        <sample-external-id>86127</sample-external-id>
+                        <submitter-name>Lacayo MD, Norman</submitter-name>
+                        <submitter-id>1009</submitter-id>
+                        <sample>S13041600057</sample>
+                        <aliquot>S13041600057</aliquot>
+                        <sample-path>S13041600057</sample-path>
+                        <compartment>cellular</compartment>
+                        <cell-process-route />
+                        <assay>hTCRD.VD.0_DNA.DJ.0_s.3_d.8_g.0</assay>
+                        <primer-set>
+                            <primer>
+                                <input-ng>1081.8</input-ng>
+                                <tag-id>1199</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>G01</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>G01</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                        </primer-set>
+                    </experiment>
+                    <experiment id="S13041600057_TCG_r1">
+                        <disease-type>aALL</disease-type>
+                        <received-material>bone_marrow</received-material>
+                        <patient-id>CLIA49</patient-id>
+                        <project-group>CLIA49</project-group>
+                        <sample-type>Calibration</sample-type>
+                        <tissue-type>Bone Marrow</tissue-type>
+                        <sample-external-id>86127</sample-external-id>
+                        <submitter-name>Lacayo MD, Norman</submitter-name>
+                        <submitter-id>1009</submitter-id>
+                        <sample>S13041600057</sample>
+                        <aliquot>S13041600057</aliquot>
+                        <sample-path>S13041600057</sample-path>
+                        <compartment>cellular</compartment>
+                        <cell-process-route />
+                        <assay>hTCRG.V.0_DNA.J.0_s.3_d.8_g.0</assay>
+                        <primer-set>
+                            <primer>
+                                <input-ng>1081.8</input-ng>
+                                <tag-id>1200</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>H01</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>H01</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                        </primer-set>
+                    </experiment>
+                    <experiment id="WTR_130417_TCD_r1">
+                        <patient-id>Water</patient-id>
+                        <project-group>Water</project-group>
+                        <sample-type>Water</sample-type>
+                        <tissue-type />
+                        <disease-type />
+                        <received-material />
+                        <sample-external-id />
+                        <sample>WTR_130417</sample>
+                        <aliquot>WTR_130417</aliquot>
+                        <sample-path>WTR_130417</sample-path>
+                        <compartment>cellular</compartment>
+                        <cell-process-route />
+                        <assay>hTCRD.VD.0_DNA.DJ.0_s.3_d.8_g.0</assay>
+                        <primer-set>
+                            <primer>
+                                <input-ng>0.0</input-ng>
+                                <tag-id>1287</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>G12</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>G12</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                        </primer-set>
+                    </experiment>
+                    <experiment id="WTR_130417_TCB_r1">
+                        <patient-id>Water</patient-id>
+                        <project-group>Water</project-group>
+                        <sample-type>Water</sample-type>
+                        <tissue-type />
+                        <disease-type />
+                        <received-material />
+                        <sample-external-id />
+                        <sample>WTR_130417</sample>
+                        <aliquot>WTR_130417</aliquot>
+                        <sample-path>WTR_130417</sample-path>
+                        <compartment>cellular</compartment>
+                        <cell-process-route />
+                        <assay>hTCRB.V.1_DNA.J.1_s.3_d.8_g.0</assay>
+                        <primer-set>
+                            <primer>
+                                <input-ng>0.0</input-ng>
+                                <tag-id>1286</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>F12</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>F12</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                        </primer-set>
+                    </experiment>
+                    <experiment id="WTR_130417_IgH_r1">
+                        <patient-id>Water</patient-id>
+                        <project-group>Water</project-group>
+                        <sample-type>Water</sample-type>
+                        <tissue-type />
+                        <disease-type />
+                        <received-material />
+                        <sample-external-id />
+                        <sample>WTR_130417</sample>
+                        <aliquot>WTR_130417</aliquot>
+                        <sample-path>WTR_130417</sample-path>
+                        <compartment>cellular</compartment>
+                        <cell-process-route />
+                        <assay>hIGH.V.BCEframe.2_DNA.J.0_s.3_d.6</assay>
+                        <primer-set>
+                            <primer>
+                                <input-ng>0.0</input-ng>
+                                <tag-id>1282</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>C12</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>C12</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                            <primer>
+                                <input-ng>0.0</input-ng>
+                                <tag-id>1283</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>A12</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>C12</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                            <primer>
+                                <input-ng>0.0</input-ng>
+                                <tag-id>1281</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>C12</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>B12</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                        </primer-set>
+                    </experiment>
+                    <experiment id="WTR_130417_IgHD_r1">
+                        <patient-id>Water</patient-id>
+                        <project-group>Water</project-group>
+                        <sample-type>Water</sample-type>
+                        <tissue-type />
+                        <disease-type />
+                        <received-material />
+                        <sample-external-id />
+                        <sample>WTR_130417</sample>
+                        <aliquot>WTR_130417</aliquot>
+                        <sample-path>WTR_130417</sample-path>
+                        <compartment>cellular</compartment>
+                        <cell-process-route />
+                        <assay>hIGH.D.0_DNA.J.0_s.3_d.6_g.0</assay>
+                        <primer-set>
+                            <primer>
+                                <input-ng>0.0</input-ng>
+                                <tag-id>1284</tag-id>
+                                <first-PCR-plate>1PCR_0000014</first-PCR-plate>
+                                <first-PCR-well>D12</first-PCR-well>
+                                <second-PCR-plate>2PCR_0000014</second-PCR-plate>
+                                <second-PCR-well>D12</second-PCR-well>
+                                <input-ml>-1</input-ml>
+                            </primer>
+                        </primer-set>
+                    </experiment>
+                </experiments>
+            </lane>
+        </run>
+    </runs>
+</request>

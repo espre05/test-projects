@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<run id="150206_M00820_0288">
+	<status>PASS</status>
+	<comment></comment>
+	<lane id="150206_M00820_0288_000000000-ADC4B">
+		<status>PASS</status>
+		<qc>reads: found 14591120 reads, required 10000 reads</qc>
+		<experiments>
+			<experiment id="WTR_FHCOMP_1_TCG_r1">
+				<analysis pk="12971" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 107432 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="CellPool_LowCtrl_0152028064_IgHD_r3">
+				<analysis pk="12919" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 248496 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103205_TCB_r3">
+				<analysis pk="12947" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 410164 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103209_TCD_r3">
+				<analysis pk="12960" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 32609 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103207_TCD_r3">
+				<analysis pk="12958" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 31617 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="CellPool_LowCtrl_0152028064_TCB_r1">
+				<analysis pk="12946" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 887580 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103205_TCG_r3">
+				<analysis pk="12965" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 379373 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103205_IgH_r3">
+				<analysis pk="12929" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 126662 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="CellPool_HighCtrl_0152028381_IgH_r5">
+				<analysis pk="12927" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 558591 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103206_TCB_r3">
+				<analysis pk="12948" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 388724 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103207_IgH_r3">
+				<analysis pk="12931" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 139179 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103210_IgHD_r3">
+				<analysis pk="12925" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 31598 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="WTR_FHCOMP_1_IgH_r1">
+				<analysis pk="12935" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 148433 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103210_TCG_r3">
+				<analysis pk="12970" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 318961 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="CellPool_LowCtrl_0152028064_TCD_r4">
+				<analysis pk="12955" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 185217 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103206_TCG_r3">
+				<analysis pk="12966" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 377259 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103209_IgH_r3">
+				<analysis pk="12933" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 138342 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103209_IgHD_r3">
+				<analysis pk="12924" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 31902 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="CellPool_HighCtrl_0152028381_TCB_r4">
+				<analysis pk="12945" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 667781 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="CellPool_LowCtrl_0152028064_IgH_r3">
+				<analysis pk="12928" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 818367 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103209_IgK_r3">
+				<analysis pk="12942" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 84866 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103206_IgH_r3">
+				<analysis pk="12930" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 142819 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="CellPool_HighCtrl_0152028381_IgHD_r5">
+				<analysis pk="12918" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 130102 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="CellPool_HighCtrl_0152028381_TCD_r4">
+				<analysis pk="12954" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 143067 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="CellPool_LowCtrl_0152028064_TCG_r3">
+				<analysis pk="12964" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 829331 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103210_IgK_r3">
+				<analysis pk="12943" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 99934 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103207_TCB_r3">
+				<analysis pk="12949" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 355011 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="CellPool_HighCtrl_0152028381_IgK_r4">
+				<analysis pk="12936" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 308931 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103205_TCD_r3">
+				<analysis pk="12956" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 38564 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103206_TCD_r3">
+				<analysis pk="12957" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 39396 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103208_TCG_r3">
+				<analysis pk="12968" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 418069 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="WTR_FHCOMP_1_IgK_r1">
+				<analysis pk="12944" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 21371 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103209_TCG_r3">
+				<analysis pk="12969" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 361007 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103210_TCD_r3">
+				<analysis pk="12961" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 19374 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103208_TCB_r3">
+				<analysis pk="12950" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 363923 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="WTR_FHCOMP_1_TCB_r1">
+				<analysis pk="12953" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 239137 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103206_IgK_r3">
+				<analysis pk="12939" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 100266 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103210_IgH_r3">
+				<analysis pk="12934" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 130088 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103207_IgHD_r3">
+				<analysis pk="12922" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 49503 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103208_IgK_r3">
+				<analysis pk="12941" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 98065 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103205_IgK_r3">
+				<analysis pk="12938" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 99611 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103208_IgH_r3">
+				<analysis pk="12932" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 127400 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103205_IgHD_r3">
+				<analysis pk="12920" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 36215 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103207_TCG_r3">
+				<analysis pk="12967" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 434524 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="WTR_FHCOMP_1_TCD_r1">
+				<analysis pk="12962" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 37672 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103206_IgHD_r3">
+				<analysis pk="12921" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 40019 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103207_IgK_r3">
+				<analysis pk="12940" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 86294 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="CellPool_HighCtrl_0152028381_TCG_r4">
+				<analysis pk="12963" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 749566 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="WTR_FHCOMP_1_IgHD_r1">
+				<analysis pk="12926" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 31522 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="CellPool_LowCtrl_0152028064_IgK_r1">
+				<analysis pk="12937" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 355742 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103208_IgHD_r3">
+				<analysis pk="12923" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 39795 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103209_TCB_r3">
+				<analysis pk="12951" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 320998 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103210_TCB_r3">
+				<analysis pk="12952" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 270117 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+			<experiment id="S15012103208_TCD_r3">
+				<analysis pk="12959" />
+				<analysis-version>8.0</analysis-version>
+				<qc-spike>PASS</qc-spike>
+				<qc-any-clone-water>PASS</qc-any-clone-water>
+				<qc-all-clone-water></qc-all-clone-water>
+				<qc-inhibit></qc-inhibit>
+				<qc-reads>found 29834 reads, required 1000 reads</qc-reads>
+				<status>PASS</status>
+			</experiment>
+		</experiments>
+	</lane>
+</run>

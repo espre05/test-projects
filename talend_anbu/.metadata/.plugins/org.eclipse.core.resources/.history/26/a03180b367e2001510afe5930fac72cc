@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_2XNh4OJlEeWMKo3-reoeaA" id="_2XHbQOJlEeWMKo3-reoeaA" label="xlsICDCodeToPostgres" creationDate="2016-03-04T16:04:37.245-0800" modificationDate="2016-03-04T16:17:22.509-0800" version="0.1" statusCode="" item="_2XOI8OJlEeWMKo3-reoeaA" maxInformationLevel="ERROR" displayName="xlsICDCodeToPostgres">
+    <author href="../../../talend.project#_8tSVcMrzEeWj3ckk5urWnw"/>
+    <informations xmi:id="_pWnHcOJnEeWMKo3-reoeaA" level="ERROR" text="icd_codes cannot be resolved to a variable"/>
+    <informations xmi:id="_pWnHceJnEeWMKo3-reoeaA" level="ERROR" text="icd_codes cannot be resolved to a variable"/>
+    <informations xmi:id="_pWnHcuJnEeWMKo3-reoeaA" level="ERROR" text="icd_codes cannot be resolved to a variable"/>
+    <informations xmi:id="_pWnHc-JnEeWMKo3-reoeaA" level="ERROR" text="Type mismatch: cannot convert from UUID to String"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_2XNh4eJlEeWMKo3-reoeaA" path="test_jobs/schema"/>
+  <TalendProperties:ProcessItem xmi:id="_2XOI8OJlEeWMKo3-reoeaA" property="_2XNh4OJlEeWMKo3-reoeaA" state="_2XNh4eJlEeWMKo3-reoeaA">
+    <process href="xlsICDCodeToPostgres_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

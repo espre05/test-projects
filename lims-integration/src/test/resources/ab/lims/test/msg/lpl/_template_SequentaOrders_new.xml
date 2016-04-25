@@ -1,0 +1,65 @@
+<SequentaOrders>
+	<Order>
+		<OrderType>NEW</OrderType>
+		<OrderID>14514511111111111111111111</OrderID>
+		<ReceivedDate>2015-02-09</ReceivedDate>
+		<CollectionDate>2015-02-09</CollectionDate>
+		<OrderStatus>Open</OrderStatus>
+		<ClinicalInformation />
+		<OrderPriority />
+		<OrderMD1>1051</OrderMD1>
+		<OrderMD1Name>Doc, Doe</OrderMD1Name>
+		<OrderGroup>1054</OrderGroup>
+		<RequisitionNumber>50001</RequisitionNumber><!-- requisition num becomes order num, requestid -->
+		<OrderDate>2015-02-09</OrderDate>
+		<OrderTime>14:37</OrderTime>
+		<ICDS>200.70</ICDS>
+		<Creator>SEQCHANC</Creator>
+		<PlacerMedicalRecordNumber />
+		<TubeCount>06</TubeCount>
+		<ReceivedMaterial>USER FIELD TBD</ReceivedMaterial>
+		<OrderOID>3090376</OrderOID>
+		<TubeType>Other</TubeType>
+		<StoredSpecimenRetreivalDate>2015-02-08</StoredSpecimenRetreivalDate>
+		<TissueType>Peripheral Blood</TissueType>
+		<SpecimenType>Fresh Peripheral Blood</SpecimenType>
+		<!--TissueType>Lymph Node</TissueType>
+		<SpecimenType>FFPE Slides</SpecimenType -->
+		<NPI>1851350979</NPI>
+		<PlacerMedicalRecordNumber1 />
+		<OrderSource />
+		<Patient>
+			<Name>Joe, Doe</Name>
+			<Sex>M</Sex>
+			<Street>Bla</Street>
+			<City>Bla</City>
+			<State>TX</State>
+			<Zip>1111</Zip>
+			<Phone>111 222 333</Phone>
+			<Soundex>FARNRBYD</Soundex>
+			<PatientIndex>587</PatientIndex><!--  master patient index -->
+			<DOB>1955-02-21</DOB>
+			<SSN>111111111</SSN>
+			<OrderID>3090376</OrderID>
+			<PatientIDStatus>ID Test In Progress</PatientIDStatus>
+		</Patient>
+		<ClinicalTest>
+			<ClinicalTestCode>ID</ClinicalTestCode>
+			<TestCollectionDate>2008-03-18</TestCollectionDate>
+			<TestCollectionTime />
+			<Questions />
+			<TestOID>3090377</TestOID>
+			<OrderID>3090376</OrderID>
+			<TissueType>Peripheral Blood</TissueType>
+			<SpecimenType>Fresh Peripheral Blood</SpecimenType>
+			<!--TissueType>Lymph Node</TissueType>
+			<SpecimenType>FFPE Slides</SpecimenType-->
+			<TubeType>Other</TubeType>
+			<StoredSpecimenRetreivalDate>2015-02-08</StoredSpecimenRetreivalDate>
+			<TubeCount>06</TubeCount>
+			<DiseaseType>ALL</DiseaseType>
+			<Receptors>DEFAULT</Receptors>
+			<Compartment>Cellular</Compartment>
+		</ClinicalTest>
+	</Order>
+</SequentaOrders>

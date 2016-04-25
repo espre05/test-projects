@@ -1,0 +1,73 @@
+<sample id="S15012103209">
+	<analysis-type>calibration</analysis-type>
+	<analysis-version>8.00</analysis-version>
+	<status>PASS</status>
+	<is-calibrated>false</is-calibrated>
+	<ds-mol-per-1e6-cells>0.0</ds-mol-per-1e6-cells>
+	<ds-mol-per-milliliter>-1</ds-mol-per-milliliter>
+	<is-clonal>false</is-clonal>
+	<calibration-pk>4548</calibration-pk>
+	<analysis-results>
+
+		<receptor id="TCB">
+			<is-calibrated>false</is-calibrated>
+			<is-clonal>false</is-clonal>
+			<ds-mol-per-1e6-cells>0.0</ds-mol-per-1e6-cells>
+			<ds-mol-per-milliliter>-1</ds-mol-per-milliliter>
+			<calibrating-clone-count>0</calibrating-clone-count>
+			<is-contaminated>false</is-contaminated>
+			<clones>
+			</clones>
+		</receptor>
+		<receptor id="IgHD">
+			<is-calibrated>false</is-calibrated>
+			<is-clonal>false</is-clonal>
+			<ds-mol-per-1e6-cells>0.0</ds-mol-per-1e6-cells>
+			<ds-mol-per-milliliter>-1</ds-mol-per-milliliter>
+			<calibrating-clone-count>0</calibrating-clone-count>
+			<is-contaminated>false</is-contaminated>
+			<clones>
+			</clones>
+		</receptor>
+		<receptor id="TCG">
+			<is-calibrated>false</is-calibrated>
+			<is-clonal>false</is-clonal>
+			<ds-mol-per-1e6-cells>0.0</ds-mol-per-1e6-cells>
+			<ds-mol-per-milliliter>-1</ds-mol-per-milliliter>
+			<calibrating-clone-count>0</calibrating-clone-count>
+			<is-contaminated>false</is-contaminated>
+			<clones>
+			</clones>
+		</receptor>
+		<receptor id="TCD">
+			<is-calibrated>false</is-calibrated>
+			<is-clonal>false</is-clonal>
+			<ds-mol-per-1e6-cells>0.0</ds-mol-per-1e6-cells>
+			<ds-mol-per-milliliter>-1</ds-mol-per-milliliter>
+			<calibrating-clone-count>0</calibrating-clone-count>
+			<is-contaminated>false</is-contaminated>
+			<clones>
+			</clones>
+		</receptor>
+		<receptor id="IgK">
+			<is-calibrated>false</is-calibrated>
+			<is-clonal>false</is-clonal>
+			<ds-mol-per-1e6-cells>0.0</ds-mol-per-1e6-cells>
+			<ds-mol-per-milliliter>-1</ds-mol-per-milliliter>
+			<calibrating-clone-count>0</calibrating-clone-count>
+			<is-contaminated>false</is-contaminated>
+			<clones>
+			</clones>
+		</receptor>
+		<receptor id="IgH">
+			<is-calibrated>false</is-calibrated>
+			<is-clonal>false</is-clonal>
+			<ds-mol-per-1e6-cells>0.0</ds-mol-per-1e6-cells>
+			<ds-mol-per-milliliter>-1</ds-mol-per-milliliter>
+			<calibrating-clone-count>0</calibrating-clone-count>
+			<is-contaminated>false</is-contaminated>
+			<clones>
+			</clones>
+		</receptor>
+	</analysis-results>
+</sample>

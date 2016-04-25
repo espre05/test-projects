@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_7XJ9AMvEEeWZEaIpDZuHOw" id="_7WxigMvEEeWZEaIpDZuHOw" label="Step01_Stage_genologics_immunoLims_data_from_prod" purpose="patients samples orders" description="Geno Patients -> cora: stage_&#xD;&#xA;Geno Samples -> stage_&#xD;&#xA;Immuno Orders -> stage_" creationDate="2016-02-04T20:57:16.239-0800" modificationDate="2016-03-09T14:06:25.762-0800" version="0.1" statusCode="" item="_7XJ9AsvEEeWZEaIpDZuHOw" displayName="Step01_Stage_genologics_immunoLims_data_from_prod">
+    <author href="../../../talend.project#_8tSVcMrzEeWj3ckk5urWnw"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_7XJ9AcvEEeWZEaIpDZuHOw" path="test_jobs/schema" locked="true" lockDate="2016-03-09T14:06:46.517-0800">
+    <locker href="../../../talend.project#_8tSVcMrzEeWj3ckk5urWnw"/>
+  </TalendProperties:ItemState>
+  <TalendProperties:ProcessItem xmi:id="_7XJ9AsvEEeWZEaIpDZuHOw" property="_7XJ9AMvEEeWZEaIpDZuHOw" state="_7XJ9AcvEEeWZEaIpDZuHOw">
+    <process href="Step01_Stage_genologics_immunoLims_data_from_prod_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2016-03-09T16:40:55.658-0800">
+  <deletedItems id="_sp5Q0NWoEeW-GdSOE6jniQ" path="test_jobs/schema" type="PROCESS"/>
+  <deletedItems id="_U4HDMMbtEeWJYpbK-ooJcQ" path="prod" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_gpc08OJlEeWMKo3-reoeaA" path="" type="METADATA_FILE_EXCEL"/>
+  <deletedItems id="_36uIYMwyEeWZEaIpDZuHOw" path="" type="METADATA_SALESFORCE_SCHEMA"/>
+</recyclebin:RecycleBin>

@@ -1,0 +1,126 @@
+<sample id="S14060501638">
+	<analysis-type>calibration</analysis-type>
+	<analysis-version>8.00</analysis-version>
+	<status>PASS</status>
+	<is-calibrated>true</is-calibrated>
+	<ds-mol-per-1e6-cells>650600</ds-mol-per-1e6-cells>
+	<ds-mol-per-milliliter>-1.0</ds-mol-per-milliliter>
+	<is-clonal>true</is-clonal>
+	<calibration-pk>3885</calibration-pk>
+	<analysis-results>
+
+		<receptor id="IgK">
+			<is-calibrated>false</is-calibrated>
+			<is-clonal>false</is-clonal>
+			<ds-mol-per-1e6-cells>0.0</ds-mol-per-1e6-cells>
+			<ds-mol-per-milliliter>-1</ds-mol-per-milliliter>
+			<calibrating-clone-count>0</calibrating-clone-count>
+			<clones>
+			</clones>
+		</receptor>
+
+		<receptor id="IgHD">
+			<is-calibrated>false</is-calibrated>
+			<is-clonal>false</is-clonal>
+			<ds-mol-per-1e6-cells>0.0</ds-mol-per-1e6-cells>
+			<ds-mol-per-milliliter>-1</ds-mol-per-milliliter>
+			<calibrating-clone-count>0</calibrating-clone-count>
+			<clones>
+			</clones>
+		</receptor>
+
+		<receptor id="TCG">
+			<is-calibrated>false</is-calibrated>
+			<is-clonal>true</is-clonal>
+			<ds-mol-per-1e6-cells>0.0</ds-mol-per-1e6-cells>
+			<ds-mol-per-milliliter>-1</ds-mol-per-milliliter>
+			<calibrating-clone-count>0</calibrating-clone-count>
+			<clones>
+
+				<clone index="0" analysis-pk="10388" version="8.0">
+					<is-calibrated>false</is-calibrated>
+					<is-contaminated>false</is-contaminated>
+					<frequency>80.93</frequency>
+					<ds-mol>103550.0</ds-mol>
+					<read-count>513117</read-count>
+					<ds-mol-per-1e6-cells>619700</ds-mol-per-1e6-cells>
+					<ds-mol-per-milliliter>-1.0</ds-mol-per-milliliter>
+					<V-segment-gene>TRGV9</V-segment-gene>
+					<J-segment-gene>TRGJ2</J-segment-gene>
+					<is-functional-rearrangment>False</is-functional-rearrangment>
+					<dna-full-sequence>CCACTGCCAAAGAGTTTCTTATAATAATTCAGAAGGCACAGTAGTAGGTAGCTATGTCCTGTTTCTCTACATTGT
+					</dna-full-sequence>
+					<dna-cdr3-sequence>TGTGCCTTCTGAATTATTATAAGAAACTCTTT
+					</dna-cdr3-sequence>
+					<aa-cdr3-sequence>CAF_IIIRNS</aa-cdr3-sequence>
+				</clone>
+			</clones>
+		</receptor>
+
+		<receptor id="TCD">
+			<is-calibrated>false</is-calibrated>
+			<is-clonal>false</is-clonal>
+			<ds-mol-per-1e6-cells>0.0</ds-mol-per-1e6-cells>
+			<ds-mol-per-milliliter>-1</ds-mol-per-milliliter>
+			<calibrating-clone-count>0</calibrating-clone-count>
+			<clones>
+			</clones>
+		</receptor>
+
+		<receptor id="TCB">
+			<is-calibrated>false</is-calibrated>
+			<is-clonal>false</is-clonal>
+			<ds-mol-per-1e6-cells>0.0</ds-mol-per-1e6-cells>
+			<ds-mol-per-milliliter>-1</ds-mol-per-milliliter>
+			<calibrating-clone-count>0</calibrating-clone-count>
+			<clones>
+			</clones>
+		</receptor>
+
+		<receptor id="IgH">
+			<is-calibrated>true</is-calibrated>
+			<is-clonal>true</is-clonal>
+			<ds-mol-per-1e6-cells>650600</ds-mol-per-1e6-cells>
+			<ds-mol-per-milliliter>-1.0</ds-mol-per-milliliter>
+			<calibrating-clone-count>2</calibrating-clone-count>
+			<clones>
+
+				<clone index="0" analysis-pk="10362" version="8.0">
+					<is-calibrated>true</is-calibrated>
+					<is-contaminated>false</is-contaminated>
+					<frequency>47.64</frequency>
+					<ds-mol>312050.0</ds-mol>
+					<read-count>637265</read-count>
+					<ds-mol-per-1e6-cells>622400</ds-mol-per-1e6-cells>
+					<ds-mol-per-milliliter>-1.0</ds-mol-per-milliliter>
+					<V-segment-gene>IGHV2-26</V-segment-gene>
+					<J-segment-gene>IGHJ4</J-segment-gene>
+					<is-functional-rearrangment>True</is-functional-rearrangment>
+					<dna-full-sequence>ACCAGGGTTCCCTGGCCCCAGTAGTCACTCCCCGAACCATAGTAATACGCACCTACTCCGGGACCATAGAAAATCCGTGCACAGTAATATGTGGCTGTGTCCACAGGGTCCATGTTGGTCATG
+					</dna-full-sequence>
+					<dna-cdr3-sequence>TGTGCACGGATTTTCTATGGTCCCGGAGTAGGTGCGTATTACTATGGTTCGGGGAGTGACTACTGG
+					</dna-cdr3-sequence>
+					<aa-cdr3-sequence>CARIFYGPGVGAYYYGSGSDYW</aa-cdr3-sequence>
+				</clone>
+
+				<clone index="1" analysis-pk="10362" version="8.0">
+					<is-calibrated>true</is-calibrated>
+					<is-contaminated>false</is-contaminated>
+					<frequency>49.8</frequency>
+					<ds-mol>326150.0</ds-mol>
+					<read-count>666152</read-count>
+					<ds-mol-per-1e6-cells>650600</ds-mol-per-1e6-cells>
+					<ds-mol-per-milliliter>-1.0</ds-mol-per-milliliter>
+					<V-segment-gene>IGHV2-70</V-segment-gene>
+					<J-segment-gene>IGHJ3</J-segment-gene>
+					<is-functional-rearrangment>True</is-functional-rearrangment>
+					<dna-full-sequence>ACCATTGTCCCTTGGCCCCAGATATCAAAAGCGTACCAGCCACTGGGGGTTGTTATCCGTGCACAGTAATACGTGGCTGTGTCCACAGGGTCCATGTTGGTCATT
+					</dna-full-sequence>
+					<dna-cdr3-sequence>TGTGCACGGATAACAACCCCCAGTGGCTGGTACGCTTTTGATATCTGG
+					</dna-cdr3-sequence>
+					<aa-cdr3-sequence>CARITTPSGWYAFDIW</aa-cdr3-sequence>
+				</clone>
+			</clones>
+		</receptor>
+	</analysis-results>
+</sample>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_7XJ9AMvEEeWZEaIpDZuHOw" id="_7WxigMvEEeWZEaIpDZuHOw" label="ToCora_load_genoSamplesAndPatients_immunoOrders" purpose="sample and patient" creationDate="2016-02-04T20:57:16.239-0800" modificationDate="2016-02-17T11:34:16.652-0800" version="0.1" statusCode="" item="_7XJ9AsvEEeWZEaIpDZuHOw" displayName="ToCora_load_genoSamplesAndPatients_immunoOrders">
+    <author href="../../../talend.project#_8tSVcMrzEeWj3ckk5urWnw"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_7XJ9AcvEEeWZEaIpDZuHOw" path="test_jobs/schema" locked="true" lockDate="2016-02-17T11:28:49.193-0800">
+    <locker href="../../../talend.project#_8tSVcMrzEeWj3ckk5urWnw"/>
+  </TalendProperties:ItemState>
+  <TalendProperties:ProcessItem xmi:id="_7XJ9AsvEEeWZEaIpDZuHOw" property="_7XJ9AMvEEeWZEaIpDZuHOw" state="_7XJ9AcvEEeWZEaIpDZuHOw">
+    <process href="ToCora_load_genoSamplesAndPatients_immunoOrders_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

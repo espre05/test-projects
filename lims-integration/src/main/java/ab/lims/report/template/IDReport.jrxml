@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="ID Report" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="515" leftMargin="40" rightMargin="40" topMargin="50" bottomMargin="50">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="288"/>
+	<property name="whenNoDataType" value="AllSectionsNoDetail"/>
+	<subDataset name="dataset1"/>
+	<subDataset name="dataset2"/>
+	<parameter name="report.title" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["Test"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="report.date" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["Test"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="patient.name" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["Test"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="patient.dateOfBirth" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["Test"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="sample.passFailStatus" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["Test"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="sample.id" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["Test"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="physician.name" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["Test"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="physician.npiNumber" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["Test"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="specimen.collectionDate" class="java.lang.String" isForPrompting="false">
+		<parameterDescription><![CDATA[SEQSAMPLE?]]></parameterDescription>
+		<defaultValueExpression><![CDATA["Test"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="specimen.accessionNumber" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["Test"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="specimen.bodySource" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["Test"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="specimen.diseaseType" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["Test"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="sample.isMrdRecommended" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["Test"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="sample.cancerMoleculesPerMillionCells" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["Test"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="sample.receptorCSV" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["Test"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="sample.cloneCount" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["Test"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="patient.id" class="java.lang.String" isForPrompting="false">
+		<parameterDescription><![CDATA[Master patient index in patient table.]]></parameterDescription>
+		<defaultValueExpression><![CDATA["Test"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="report.approverName" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["Test"]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<variable name="headerImage" class="java.lang.String">
+		<initialValueExpression><![CDATA[""]]></initialValueExpression>
+	</variable>
+	<title>
+		<band splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="85">
+			<line>
+				<reportElement x="3" y="83" width="512" height="1" forecolor="#0066CC"/>
+			</line>
+			<frame>
+				<reportElement mode="Opaque" x="2" y="0" width="516" height="69" forecolor="#00A5E3" backcolor="#EDF0F1"/>
+				<staticText>
+					<reportElement x="4" y="41" width="309" height="28" forecolor="#00A5E3"/>
+					<textElement>
+						<font size="20"/>
+					</textElement>
+					<text><![CDATA[Identification Report]]></text>
+				</staticText>
+				<elementGroup>
+					<staticText>
+						<reportElement x="4" y="23" width="127" height="31" forecolor="#00A5E3"/>
+						<textElement>
+							<font fontName="Proxima Nova Alt Rg" size="20"/>
+						</textElement>
+						<text><![CDATA[ClonoSIGHT]]></text>
+					</staticText>
+					<staticText>
+						<reportElement x="118" y="25" width="16" height="13" forecolor="#00A5E3"/>
+						<textElement>
+							<font size="4"/>
+						</textElement>
+						<text><![CDATA[TM]]></text>
+					</staticText>
+				</elementGroup>
+				<elementGroup>
+					<staticText>
+						<reportElement x="414" y="25" width="93" height="18" forecolor="#999999"/>
+						<textElement textAlignment="Right">
+							<font size="6"/>
+						</textElement>
+						<text><![CDATA[Ultra-sensitive detection of MRD]]></text>
+					</staticText>
+					<staticText>
+						<reportElement x="424" y="8" width="47" height="20"/>
+						<textElement textAlignment="Right">
+							<font size="12"/>
+						</textElement>
+						<text><![CDATA[CLONO]]></text>
+					</staticText>
+					<staticText>
+						<reportElement x="470" y="8" width="41" height="20" forecolor="#00A5E3"/>
+						<textElement>
+							<font size="12"/>
+						</textElement>
+						<text><![CDATA[SIGHT]]></text>
+					</staticText>
+					<frame>
+						<reportElement mode="Transparent" x="435" y="4" width="42" height="8"/>
+						<line>
+							<reportElement x="11" y="5" width="2" height="1"/>
+						</line>
+						<line>
+							<reportElement x="32" y="5" width="2" height="1" forecolor="#00A5E3"/>
+						</line>
+						<line>
+							<reportElement x="28" y="5" width="2" height="1"/>
+						</line>
+						<line>
+							<reportElement x="13" y="5" width="2" height="1" forecolor="#00A5E3"/>
+						</line>
+					</frame>
+				</elementGroup>
+			</frame>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="556" splitType="Stretch">
+			<staticText>
+				<reportElement x="11" y="200" width="100" height="20"/>
+				<textElement/>
+				<text><![CDATA[Test Results]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="11" y="220" width="110" height="35"/>
+				<textElement/>
+				<text><![CDATA[Presence of Leukemic Gene Rearrangements]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="11" y="255" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$P{sample.passFailStatus}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="173" y="200" width="124" height="20"/>
+				<textElement/>
+				<text><![CDATA[ClonoSIGHT MRD Testing]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="185" y="235" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$P{sample.isMrdRecommended}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="373" y="210" width="110" height="35"/>
+				<textElement/>
+				<text><![CDATA[Leukemic Molecules per million cells]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="373" y="245" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$P{sample.cancerMoleculesPerMillionCells}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="3" y="287" width="100" height="20" forecolor="#0066CC"/>
+				<textElement/>
+				<text><![CDATA[Interpretation]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="11" y="378" width="100" height="20" forecolor="#0066CC"/>
+				<textElement/>
+				<text><![CDATA[Method]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="5" y="398" width="500" height="77"/>
+				<textElement textAlignment="Justified"/>
+				<textFieldExpression><![CDATA["DNA was extracted from " + $P{specimen.bodySource}+ " aspirate smear slides. A set of multiplexed primers was used to amplify the full IGH-VDJ, IGH-DJ, IGK, TRB, TRD, TRG repertoires. Amplified products were sequenced deeply. Leukemic gene rearrangements werer identified based on frequency and assesed for suitability for follow-up MRD testing.  Sequences with an extremely low probablility of being found by change wehre recommend for MRD testing." + $P{sample.cloneCount} + "sequence(s) present in thsi IDsample passed this stringent criteria and werer recommended for follow-up MRD testing."]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="5" y="495" width="500" height="27"/>
+				<textElement/>
+				<text><![CDATA[Quality Assessment : Assay results passed strict QC guidelines for amplification and sequencing depth and quality.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="31" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$P{patient.name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="286" y="35" width="122" height="21"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$P{patient.dateOfBirth}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="11" width="76" height="20"/>
+				<textElement/>
+				<text><![CDATA[Patient Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="286" y="11" width="76" height="20"/>
+				<textElement/>
+				<text><![CDATA[Date of Birth]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="262" y="136" width="100" height="20"/>
+				<textElement/>
+				<text><![CDATA[Specimen Source:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="398" y="136" width="100" height="20"/>
+				<textElement/>
+				<text><![CDATA[Report Date:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="95" width="100" height="20"/>
+				<textElement/>
+				<text><![CDATA[Ordering Physician:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="97" width="100" height="20"/>
+				<textElement/>
+				<text><![CDATA[NPI No:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="262" y="76" width="136" height="19"/>
+				<textElement/>
+				<text><![CDATA[Specimen Collection Date:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="408" y="75" width="100" height="20"/>
+				<textElement/>
+				<text><![CDATA[Accession Number:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="262" y="97" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$P{specimen.collectionDate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="408" y="96" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$P{specimen.accessionNumber}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="262" y="156" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$P{specimen.bodySource}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="398" y="156" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$P{report.date}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="136" width="100" height="20"/>
+				<textElement/>
+				<text><![CDATA[Clinical Indication:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="156" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$P{specimen.diseaseType}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="117" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$P{physician.name}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="3" y="176" width="512" height="1" forecolor="#0066CC"/>
+			</line>
+			<line>
+				<reportElement x="5" y="282" width="512" height="1" forecolor="#0066CC"/>
+			</line>
+			<line>
+				<reportElement x="5" y="377" width="512" height="1" forecolor="#0066CC"/>
+			</line>
+			<line>
+				<reportElement x="3" y="196" width="512" height="1" forecolor="#0066CC"/>
+			</line>
+			<staticText>
+				<reportElement x="186" y="177" width="100" height="20" forecolor="#0066FF"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sample]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="10" y="316" width="488" height="61"/>
+				<textElement textAlignment="Justified"/>
+				<textFieldExpression><![CDATA["The sample is  "+ $P{sample.passFailStatus} +" for the presence of leukemic gene rearrangements.  Follow-up minimal residual disease(MRD) testing of "+ $P{sample.receptorCSV} +" is recommended for monitoring the leukemic gene rearrangements identified in this sample. The results of this test should be interpreted in teh complete clinical context, including the patient's clinical presentation and current treatment regimen."]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<lastPageFooter>
+		<band height="529">
+			<staticText>
+				<reportElement x="13" y="421" width="140" height="21" forecolor="#0066CC"/>
+				<textElement/>
+				<text><![CDATA[Electronically Signed by:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="14" y="446" width="128" height="16"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$P{report.approverName}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="299" y="417" width="100" height="20"/>
+				<textElement/>
+				<text><![CDATA[Date]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="302" y="442" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$P{report.date}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="6" y="462" width="512" height="1" forecolor="#0066CC"/>
+			</line>
+			<line>
+				<reportElement x="5" y="416" width="512" height="1" forecolor="#0066CC"/>
+			</line>
+			<staticText>
+				<reportElement x="7" y="362" width="100" height="20" forecolor="#0066CC"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[References]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="21" y="392" width="100" height="20"/>
+				<textElement/>
+				<text><![CDATA[Ref1, Ref2.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="7" y="20" width="100" height="20" forecolor="#0066FF"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Clinical Utility]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="6" y="40" width="502" height="51"/>
+				<textElement/>
+				<text><![CDATA[Minimal residual disease (MRD) analysis by the LympoSIGHT method is intended to detect population of residual cancer molecules in peripheral blood or bone marrow samples1. Higher MRD levels during therapy and post-treatment have been shown to have prognostic value in numerous disease contexts2-3.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="3" y="113" width="118" height="13" forecolor="#0066CC"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[LymphoSIGHT Method]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="5" y="134" width="500" height="194"/>
+				<textElement/>
+				<text><![CDATA[Regions of the variable (V), diversity(D), and joining (J) gene segments are amplified using a two-stage PCR. In the first stage, multiplexed V and J primers are utilized. This is followed by a second stage that uses a single pair of primers to append sequences necessary for cluster formation and sample multiplexing. Amplified product is sequenced to obtain a high number of reads. Sequences are analyzed to determine similar sequences that form a clonotype, whose frequency can be determined by the number of member reads.
+
+The LymphoSIGHT method is used for clonality assessment and MRD detection.
+
+ID test: Leukemic gene rearrangements are identified in diagnostic samples. The following immune receptors are assayed in diagnostic samples: IGH-VDJ, IGH-DJ, IGK, TRB, TRD, TRG.
+
+MRD test: Follow-up samples will be monitored for the presence of leukemic gene rearrangements. Positive receptors which demonstrated a leukemic gene rearrangement in teh clonoSIGHT ID test will be sequenced, and MRD levels will be determined. The sensitivity of this technology enables detection of a single cancer molecule.
+]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="2" y="488" width="513" height="17" isPrintWhenDetailOverflows="true" forecolor="#666666"/>
+				<textElement>
+					<font size="6"/>
+				</textElement>
+				<textFieldExpression><![CDATA["This test was developed and its performance characteristics determinded by Sequenta, Inc. It has not been cleared or approved by the US Food and Drug Administration. This laboratory is regulated under the Clinical Laboratory Improvement Amendments  of 1988.(CLIA-88). as qualified to perform high complexity testing. This test is used for clinical purposes. It shold not be regarded as investigational or for research."]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="0" width="505" height="13" forecolor="#999999"/>
+				<textElement/>
+				<textFieldExpression><![CDATA["Patient:"+ $P{patient.name} + "| DOB:" + $P{patient.dateOfBirth} +  "| Accession Number:" + $P{specimen.accessionNumber} +  "| Patient Number:" + $P{patient.id}]]></textFieldExpression>
+			</textField>
+		</band>
+	</lastPageFooter>
+	<noData>
+		<band height="50"/>
+	</noData>
+</jasperReport>

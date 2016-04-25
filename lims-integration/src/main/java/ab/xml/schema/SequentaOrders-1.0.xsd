@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<xs:schema 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	elementFormDefault="qualified" 
+	attributeFormDefault="unqualified">
+
+	<xs:element name="SequentaOrders" type="SequentaOrdersType"/>
+	<xs:complexType name="PatientType">
+		<xs:sequence>
+			<xs:element name="Name" type="xs:string" minOccurs="1" />
+			<xs:element name="Sex" type="xs:string" minOccurs="0" />
+			<xs:element name="Street" type="xs:string" minOccurs="0" />
+			<xs:element name="City" type="xs:string" minOccurs="0" />
+			<xs:element name="State" type="xs:string" minOccurs="0" />
+			<xs:element name="Zip" type="xs:string" minOccurs="0" />
+			<xs:element name="Phone" type="xs:string" minOccurs="0" />
+			<xs:element name="Soundex" type="xs:string" minOccurs="0" />
+			<xs:element name="PatientIndex" type="xs:short" minOccurs="1" />
+			<xs:element name="DOB" type="xs:string" minOccurs="1"/>
+			<xs:element name="SSN" type="xs:integer" minOccurs="0"  />
+			<xs:element name="OrderID" type="xs:integer" minOccurs="0" />
+			<xs:element name="PatientIDStatus" type="xs:string" minOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ClinicalTestType">
+		<xs:sequence>
+			<xs:element name="ClinicalTestCode" type="xs:string" minOccurs="1"/>
+			<xs:element name="TestCollectionDate" type="xs:string" minOccurs="1"/>
+			<xs:element name="TestCollectionTime" type="xs:string" minOccurs="0"/>
+			<xs:element name="Questions" type="xs:string" minOccurs="0"/>
+			<xs:element name="TestOID" type="xs:integer" minOccurs="0"/>
+			<xs:element name="OrderID" type="xs:integer" minOccurs="0" />
+			<xs:element name="TissueType" type="xs:string" minOccurs="0" />
+			<xs:element name="SpecimenType" type="xs:string" minOccurs="0" />
+			<xs:element name="TubeType" type="xs:string" minOccurs="0" />
+			<xs:element name="StoredSpecimenRetreivalDate" type="xs:string" minOccurs="0" />
+			<xs:element name="TubeCount" type="xs:int" minOccurs="0" />
+			<xs:element name="DiseaseType" type="xs:string" minOccurs="1"/>
+			<xs:element name="Receptors" type="xs:string" minOccurs="1"/>
+			<xs:element name="Compartment" type="xs:string" minOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="HoldsType">
+		<xs:sequence>
+			<xs:element name="OrderID" type="xs:integer" />
+			<xs:element name="HoldCode" type="xs:integer" />
+			<xs:element name="HoldDescription" type="xs:string" minOccurs="0" />
+			<xs:element name="HoldType" type="xs:string" minOccurs="0" />
+			<xs:element name="ResolvedBy" type="xs:string" minOccurs="0" />
+			<xs:element name="ResolvedDate" type="xs:string" minOccurs="0" />
+			<xs:element name="ResolvedTime" type="xs:string" minOccurs="0" />
+			<xs:element name="Comments" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="OrderType">
+		<xs:sequence>
+			<xs:element name="OrderType" type="xs:string" minOccurs="0" />
+			<xs:element name="OrderID" type="xs:integer" minOccurs="0" />
+			<xs:element name="ReceivedDate" type="xs:string" minOccurs="0" />
+			<xs:element name="CollectionDate" type="xs:string" minOccurs="0" />
+			<xs:element name="OrderStatus" type="xs:string" minOccurs="1"/>
+			<xs:element name="ClinicalInformation" type="xs:string" minOccurs="0" />
+			<xs:element name="OrderPriority" type="xs:string" minOccurs="0" />
+			<xs:element name="OrderMD1" type="xs:integer" minOccurs="1"/>
+			<xs:element name="OrderMD1Name" type="xs:string" minOccurs="1"/>
+			<xs:element name="OrderGroup" type="xs:integer" minOccurs="0" />
+			<xs:element name="RequisitionNumber" type="xs:integer" minOccurs="1"/>
+			<xs:element name="OrderDate" type="xs:string" minOccurs="0" />
+			<xs:element name="OrderTime" type="xs:string" minOccurs="0" />
+			<xs:element name="ICDS" type="xs:float" minOccurs="0" />
+			<xs:element name="Creator" type="xs:string" minOccurs="0" />
+			<xs:element name="PlacerMedicalRecordNumber" type="xs:string" minOccurs="1"/>
+			<xs:element name="TubeCount" type="xs:int" minOccurs="0" />
+			<xs:element name="ReceivedMaterial" type="xs:string" minOccurs="0" />
+			<xs:element name="OrderOID" type="xs:integer" minOccurs="0" />
+			<xs:element name="TubeType" type="xs:string" minOccurs="1"/>
+			<xs:element name="StoredSpecimenRetreivalDate" type="xs:string" minOccurs="0" />
+			<xs:element name="TissueType" type="xs:string" minOccurs="1"/>
+			<xs:element name="SpecimenType" type="xs:string" minOccurs="1"/>
+			<xs:element name="NPI" type="xs:integer" minOccurs="1"/>
+			<xs:element name="PlacerMedicalRecordNumber1" type="xs:string" minOccurs="0" />
+			<xs:element name="OrderSource" type="xs:string" minOccurs="1"/>
+			<xs:element name="Patient" type="PatientType" minOccurs="1" />
+			<xs:element name="ClinicalTest" type="ClinicalTestType" minOccurs="1" />
+			<xs:element name="Holds" type="HoldsType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="SequentaOrdersType">
+		<xs:sequence  minOccurs="1" maxOccurs="unbounded">
+			<xs:element name="Order" type="OrderType"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

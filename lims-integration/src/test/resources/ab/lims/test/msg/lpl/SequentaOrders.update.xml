@@ -1,0 +1,91 @@
+<SequentaOrders>
+	<Order>
+		<OrderType>UPDATE</OrderType>
+		<OrderID>3051898</OrderID>
+		<ReceivedDate>2015-02-07</ReceivedDate>
+		<CollectionDate />
+		<OrderStatus>Open</OrderStatus>
+		<ClinicalInformation />
+		<OrderPriority />
+		<OrderMD1>1011</OrderMD1>
+		<OrderMD1Name>Miklos MD PhD, David B </OrderMD1Name>
+		<OrderGroup>1017</OrderGroup>
+		<RequisitionNumber>202547</RequisitionNumber>
+		<OrderDate>2015-02-07</OrderDate>
+		<OrderTime>10:34</OrderTime>
+		<ICDS>208.80</ICDS>
+		<Creator>SEQWOLFC</Creator>
+		<PlacerMedicalRecordNumber />
+		<TubeCount>02</TubeCount>
+		<ReceivedMaterial>USER FIELD TBD</ReceivedMaterial>
+		<OrderOID>3051898</OrderOID>
+		<TubeType>EDTA</TubeType>
+		<StoredSpecimenRetreivalDate />
+		<TissueType>Peripheral Blood</TissueType>
+		<SpecimenType>Fresh Peripheral Blood</SpecimenType>
+		<NPI>1982751053</NPI>
+		<PlacerMedicalRecordNumber1 />
+		<OrderSource />
+		<Patient>
+			<Name>Joe, Doe</Name>
+			<Sex>M</Sex>
+			<Street>Bla</Street>
+			<City>Petaluma</City>
+			<State>CA</State>
+			<Zip>111111</Zip>
+			<Phone />
+			<Soundex>WILMSLRN</Soundex>
+			<PatientIndex>181</PatientIndex>
+			<DOB>1941-01-15</DOB>
+			<SSN>11111111</SSN>
+			<OrderID>3051898</OrderID>
+			<PatientIDStatus>MRD testing recommended</PatientIDStatus>
+		</Patient>
+		<ClinicalTest>
+			<ClinicalTestCode>MRD</ClinicalTestCode>
+			<TestCollectionDate>2015-02-05</TestCollectionDate>
+			<TestCollectionTime />
+			<Questions />
+			<TestOID>3051899</TestOID>
+			<OrderID>3051898</OrderID>
+			<TissueType>Peripheral Blood</TissueType>
+			<SpecimenType>Fresh Peripheral Blood</SpecimenType>
+			<TubeType>EDTA</TubeType>
+			<StoredSpecimenRetreivalDate />
+			<TubeCount>02</TubeCount>
+			<DiseaseType>T Cell Large Granular Leukemia</DiseaseType>
+			<Receptors>DEFAULT</Receptors>
+			<Compartment>Cellular</Compartment>
+		</ClinicalTest>
+		<Holds>
+			<OrderID>3051898</OrderID>
+			<HoldCode>400</HoldCode>
+			<HoldDescription>Miscellaneous Hold - Enter description in the comments field. </HoldDescription>
+			<HoldType>Internal</HoldType>
+			<ResolvedBy>BrehmerV</ResolvedBy>
+			<ResolvedDate>2015-02-09</ResolvedDate>
+			<ResolvedTime>19:14</ResolvedTime>
+			<Comments>Compartment did not autopopulate for this disease type.
+				Please confirm compartment. 07Feb2015CW
+
+				Per Malek's CLIA disease table and previous orders, compartment is
+				cellular. 09FEb2015VB
+			</Comments>
+		</Holds>
+		<Holds>
+			<OrderID>3051898</OrderID>
+			<HoldCode>502</HoldCode>
+			<HoldDescription>Missing ICD Code</HoldDescription>
+			<HoldType>External</HoldType>
+			<ResolvedBy>BrehmerV</ResolvedBy>
+			<ResolvedDate>2015-02-09</ResolvedDate>
+			<ResolvedTime>19:13</ResolvedTime>
+			<Comments>ICD-9 code was not specified by the physician on TRF.
+				09FEB2015 CC.
+
+				Per previous orders for this patient with same disease type, ICD-9 code
+				is 208.80. 09Feb2015VB
+			</Comments>
+		</Holds>
+	</Order>
+</SequentaOrders>

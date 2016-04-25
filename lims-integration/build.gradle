@@ -1,0 +1,159 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'war'
+apply plugin: "jetty"
+
+//apply plugin: 'findbugs'
+//apply plugin: 'jacoco'
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+//ant.importBuild 'build.xml'
+
+sourceSets {
+    main {
+        java {
+        	//srcDir should be removed, once we follow general conventions i.e src/main/java, src/main/test, src/main/resources
+            srcDirs 'src/main/java' 
+            srcDir 'src/gen/java'
+        }
+        resources {
+        	srcDirs 'src/main/resources'
+        }
+    }
+    test{
+        java {
+            srcDir 'src/test/unit/java'
+            srcDir 'src/test/integration/java'
+        }
+        resources {
+            srcDirs 'src/test/resources'
+        }
+    }
+}
+
+test{
+  ignoreFailures true
+  //systemProperties = System.getProperties()
+  systemProperties['DEPLOYMENT_ENV'] = 'JUNIT'
+  systemProperties['APP_INSTANCE'] = 'LV701'
+  exclude "test/**/integration/**"
+  
+}
+
+eclipse {
+
+  project {
+    name = 'lims-integration'
+  }
+}
+
+repositories {
+    mavenCentral()
+    maven {
+    	url "http://repo1.maven.org/maven2/org/seleniumhq/selenium/"
+    }
+}
+
+dependencies {
+	compile files('./lib/lv7/sapphire.jar')
+	compile files('./lib/lv7/jboss-client.jar')
+	compile files('./lib/ojdbc6.jar')
+	
+    compile group: 'commons-collections', name: 'commons-collections', version: '3.2'
+    compile group: 'commons-lang', name: 'commons-lang', version: '2.6'
+    compile group: 'commons-discovery', name: 'commons-discovery', version: '0.4'
+    
+	compile group: 'com.google.guava', name: 'guava', version: '12.0'
+	//compile group: 'com.rabbitmq', name: 'rabbitmq-client', version: '1.3.0' // Version not available in public repo
+	//compile group: 'org.apache.activemq', name: 'activemq-all', version: '5.11+' 
+	
+	compile group: 'javax.mail', name: 'mail', version: '1.4+'
+	
+	compile files('./lib/rabbitmq-client.jar')
+	//for axis lv webservice --- starts
+	//compile files('./lib/commons-discovery-0.5.jar')
+	compile group: 'wsdl4j', name: 'wsdl4j', version: '1.6+'
+	//for axis lv webservice --- ends
+	
+	compile group: 'org.apache.axis', name: 'axis', version: '1.4'
+	compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.0'
+	compile group: 'org.apache.poi', name: 'poi', version: '3.10.1'
+	compile group: 'org.apache.poi', name: 'poi-ooxml', version: '3.10.1'
+	compile group: 'javax.xml.rpc', name: 'javax.xml.rpc-api', version: '1.1'
+	compile group: 'junit', name: 'junit', version: '4.11'
+	compile group: 'junit-addons', name: 'junit-addons', version: '1.4'
+	compile group: 'org.springframework', name: 'spring-test', version: '4+'
+	compile group: 'org.springframework', name: 'spring-support', version: '2.0.8'
+	compile group: 'org.springframework', name: 'spring-oxm', version: '3+'
+	//compile('org.springframework:spring-context-support:4+');
+	compile('org.springframework:spring-jdbc:4.2.1.RELEASE');
+	compile('org.springframework.data:spring-data-jpa:1.8.2.RELEASE');
+//jasper
+	compile group: 'net.sf.jasperreports', name: 'jasperreports', version: '4.5.1'
+	
+	compile group: 'org.apache.camel', name: 'camel-core', version: '2.15.0'
+	compile group: 'org.apache.camel', name: 'camel-jms', version: '2.15.0'
+	compile group: 'org.apache.camel', name: 'camel-spring', version: '2.15.0'
+	compile group: 'org.apache.camel', name: 'camel-rabbitmq', version: '2.15.0'
+	compile group: 'org.springframework.amqp', name: 'spring-rabbit', version: '1.4+'
+	compile group: 'org.apache.camel', name: 'camel-rabbitmq', version: '+'
+	compile group: 'org.apache.camel', name: 'camel-test', version: '2.15.0'
+	compile group: 'org.apache.camel', name: 'camel-test-spring', version: '2.15.0'
+
+	//use for compile but don't include in any artifacts
+	compile group: 'javax.servlet', name: 'javax.servlet-api', version: '3.0.1'
+	compile group: 'javax.servlet.jsp', name: 'jsp-api', version: '2.2'
+
+	//for logging
+	compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7+'
+	compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.1+'
+	// jcl is to satisfy labvantage internal dependency on commons logging
+	compile group: 'org.slf4j', name: 'jcl-over-slf4j', version: '1.7+'
+	compile group: 'org.slf4j', name: 'log4j-over-slf4j', version: '1.7+'
+	
+	//color console
+	compile group: 'org.fusesource.jansi', name: 'jansi', version: '1.11'
+	
+	//selenium
+	compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.45.0'
+	
+	compile("aopalliance:aopalliance:1.0")
+	
+}
+
+configurations{
+	// exclude for best practices
+	compile.exclude group: 'commons-logging' //, module: 'commons-logging' //No commons loging
+	compile.exclude group: 'apspectj' //, module: 'aspectj*' //no old aspectj shd be org.aspsectj
+	compile.exclude group: 'hsqldb', module: 'hsqldb' //no old hsqldb shd be org.hsqldb
+	compile.exclude group: 'log4j', module: 'log4j' //no log4j moving ot slf4j
+	compile.exclude group: 'org.slf4j', module: '1.5*' //no old slf4j
+	compile.exclude group: 'org.springframework', module: '2.*' //no old spring
+	compile.exclude group: 'org.springframework', module: '3.*' //no old spring
+}
+
+jar {
+    archiveName = "lims-integration.jar"
+    manifest {
+        attributes 'Implementation-Title': 'Adaptive Biotech Labvantage Custom',
+                   'Implementation-Version': 1.0
+    }
+}
+
+uploadArchives {
+    repositories {
+       flatDir {
+           dirs 'repos'
+       }
+    }
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.0'
+}
+
+task intTest(type: Test) {
+    include "**/integration/**"
+}

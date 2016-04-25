@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:camel="http://camel.apache.org/schema/spring" xmlns:broker="http://activemq.apache.org/schema/core"
+	xsi:schemaLocation="
+         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+         http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd
+         http://activemq.apache.org/schema/core http://activemq.apache.org/schema/core/activemq-core.xsd">
+
+	<import resource="classpath:/ab/lims/spring/cfg/_common-context.xml" />
+
+	<bean id="limsDeadLetterErrorHandler" class="org.apache.camel.builder.DeadLetterChannelBuilder">
+		<property name="deadLetterUri" value="${queue.uri.dead_letter_res}" />
+		<property name="redeliveryPolicy" ref="limsRedeliveryPolicyConfig" />
+	</bean>
+
+	<bean id="limsRedeliveryPolicyConfig" class="org.apache.camel.processor.RedeliveryPolicy">
+		<property name="maximumRedeliveries" value="3" />
+		<property name="redeliveryDelay" value="5000" />
+	</bean>
+
+
+
+	<camelContext id="camel-server" xmlns="http://camel.apache.org/schema/spring">
+
+		<jmxAgent disabled="false" onlyRegisterProcessorWithCustomId="false"
+			createConnector="true" usePlatformMBeanServer="true"
+			registerNewRoutes="true" statisticsLevel="All" includeHostName="false"
+			mask="false" id="agent" />
+
+		<endpoint id="queue.createRunReq" uri="${queue.uri.create_run_req}" />
+		<endpoint id="queue.createRunRes" uri="${queue.uri.create_run_res}" />
+		<endpoint id="queue.analyseRunReq" uri="${queue.uri.analyse_run_req}" />
+		<endpoint id="queue.analyseRunRes" uri="${queue.uri.analyse_run_res}" />
+		<endpoint id="queue.analyseSampleReq" uri="${queue.uri.analyse_sample_req}" />
+		<endpoint id="queue.analyseSampleRes" uri="${queue.uri.analyse_sample_res}" />
+		<endpoint id="queue.analyseSequenceReq" uri="${queue.uri.analyse_sequence_req}" />
+		<endpoint id="queue.analyseSequenceRes" uri="${queue.uri.analyse_sequence_res}" />
+		<endpoint id="queue.deadLetterReq" uri="${queue.uri.dead_letter_req}" />
+		<endpoint id="queue.deadLetterRes" uri="${queue.uri.dead_letter_res}" />
+
+		<!--errorHandler id="myErrorHandler" type="DefaultErrorHandler"> <redeliveryPolicy 
+			maximumRedeliveries="3" redeliveryDelay="1000" allowRedeliveryWhileStopping="false" 
+			retryAttemptedLogLevel="INFO"/> </errorHandler -->
+
+
+
+		<!--removeHeaders pattern="rabbitmq.*"/ -->
+		<route id="processCreateRunRes" errorHandlerRef="limsDeadLetterErrorHandler">
+			<from uri="ref:queue.createRunRes" />
+			<bean ref="limsLabvantageService" method="acceptCreateRunResponse" />
+		</route>
+		<route id="processAnalyseRunRes">
+			<from uri="ref:queue.analyseRunRes" />
+			<bean ref="limsLabvantageService" method="acceptAnalyseRunResponse" />
+		</route>
+		<route id="processAnalyseSequenceRes">
+			<from uri="ref:queue.analyseSequenceRes" />
+			<bean ref="limsLabvantageService" method="acceptAnalyseSequenceResponse" />
+		</route>
+		<route id="processAnalyseSampleRes">
+			<from uri="ref:queue.analyseSampleRes" />
+			<bean ref="limsLabvantageService" method="acceptAnalyseSampleResponse" />
+		</route>
+
+	</camelContext>
+	<camelContext id="camelclientContext" xmlns="http://camel.apache.org/schema/spring">
+		<template id="producerTemplate" />
+		<consumerTemplate id="consumerTemplate" />
+	</camelContext>
+
+</beans>

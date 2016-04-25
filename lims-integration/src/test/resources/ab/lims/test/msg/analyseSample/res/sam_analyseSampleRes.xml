@@ -1,0 +1,29 @@
+<!-- ####### start ####### -->
+        <sample id="P15020600125">
+          <analysis-type>MRD</analysis-type>
+          <analysis-version>8.00</analysis-version>
+          <status>PASS</status>
+          <calibration-pk>4976</calibration-pk>
+          <is-mrd-positive>false</is-mrd-positive>
+          <ds-mol-per-1e6-cells>0.0</ds-mol-per-1e6-cells>
+          <ds-mol-per-milliliter>0.0</ds-mol-per-milliliter>
+          <cell-equivalents>585400</cell-equivalents>
+          <ml-examined>-1.0</ml-examined>
+          <limit-of-detection>1.7</limit-of-detection>
+          <is-contaminated>false</is-contaminated>
+          <analysis-results>
+            
+    <receptor id="IgH">
+        <is-mrd-positive>false</is-mrd-positive>
+        <ds-mol-per-1e6-cells>0.0</ds-mol-per-1e6-cells>
+        <ds-mol-per-milliliter>0.0</ds-mol-per-milliliter>
+        <total-input-rearranged-ds-mols>19800</total-input-rearranged-ds-mols>
+        <total-input-mapped-reads>605424.0</total-input-mapped-reads>
+        <limit-of-detection>1.7</limit-of-detection>
+        <cell-equivalents>585389.628214</cell-equivalents>
+        <is-contaminated>false</is-contaminated>
+<clones>
+</clones></receptor>
+          </analysis-results>
+        </sample>
+<!-- ####### end ####### -->

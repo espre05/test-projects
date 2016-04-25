@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_SVD9cOZDEeW21eKyRilL3Q" id="_SUyQoOZDEeW21eKyRilL3Q" label="Step01_Stage_salesforce_data" creationDate="2016-03-09T14:07:17.190-0800" modificationDate="2016-03-09T14:28:48.904-0800" version="0.1" statusCode="" item="_SVD9cuZDEeW21eKyRilL3Q" maxInformationLevel="ERROR" displayName="Step01_Stage_salesforce_data">
+    <author href="../../../talend.project#_8tSVcMrzEeWj3ckk5urWnw"/>
+    <informations xmi:id="_LeCT4OZGEeW21eKyRilL3Q" level="ERROR" text="sfMgr_tSalesforceInput_1 cannot be resolved"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_SVD9ceZDEeW21eKyRilL3Q" path="test_jobs/schema" locked="true" lockDate="2016-03-09T14:07:17.696-0800">
+    <locker href="../../../talend.project#_8tSVcMrzEeWj3ckk5urWnw"/>
+  </TalendProperties:ItemState>
+  <TalendProperties:ProcessItem xmi:id="_SVD9cuZDEeW21eKyRilL3Q" property="_SVD9cOZDEeW21eKyRilL3Q" state="_SVD9ceZDEeW21eKyRilL3Q">
+    <process href="Step01_Stage_salesforce_data_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

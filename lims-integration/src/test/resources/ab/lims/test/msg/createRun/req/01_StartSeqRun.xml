@@ -1,0 +1,1645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<run id="150206_M00820_0288">
+	<lane id="150206_M00820_0288_000000000-ADC4B">
+		<experiments>
+			<experiment id="CellPool_HighCtrl_0152028381_IgK_r4">
+				<patient-id>CellPool_HighCtrl</patient-id>
+				<project-group>CellPool_HighCtrl</project-group>
+				<sample-type>CellPool_HighCtrl</sample-type>
+				<tissue-type />
+				<disease-type />
+				<received-material />
+				<sample-external-id />
+				<sample>CellPool_HighCtrl_0152028381</sample>
+				<aliquot>CellPool_HighCtrl_0152028381</aliquot>
+				<sample-path>CellPool_HighCtrl_0152028381</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hIGK.V.0_DNA.J.0_s.3.q.1455_d.6_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>2000.0</input-ng>
+						<tag-id>1173</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>E10</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>E10</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="WTR_FHCOMP_1_IgH_r1">
+				<patient-id>Water</patient-id>
+				<project-group>Water</project-group>
+				<sample-type>Water</sample-type>
+				<tissue-type />
+				<disease-type />
+				<received-material />
+				<sample-external-id />
+				<sample>WTR_FHCOMP_1</sample>
+				<aliquot>WTR_FHCOMP_1</aliquot>
+				<sample-path>WTR_FHCOMP_1</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hIGH.V.BCEframe.2_DNA.J.0_s.3_d.6</assay>
+				<primer-set>
+					<primer>
+						<input-ng>0.0</input-ng>
+						<tag-id>1185</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>A12</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>A12</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+					<primer>
+						<input-ng>0.0</input-ng>
+						<tag-id>1187</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>B12</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>B12</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+					<primer>
+						<input-ng>0.0</input-ng>
+						<tag-id>1186</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>C12</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>B12</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="WTR_FHCOMP_1_IgK_r1">
+				<patient-id>Water</patient-id>
+				<project-group>Water</project-group>
+				<sample-type>Water</sample-type>
+				<tissue-type />
+				<disease-type />
+				<received-material />
+				<sample-external-id />
+				<sample>WTR_FHCOMP_1</sample>
+				<aliquot>WTR_FHCOMP_1</aliquot>
+				<sample-path>WTR_FHCOMP_1</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hIGK.V.0_DNA.J.0_s.3.q.1455_d.6_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>0.0</input-ng>
+						<tag-id>1189</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>E12</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>E12</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103205_TCB_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_1</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN1_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103205</sample>
+				<aliquot>S15012103205</aliquot>
+				<sample-path>S15012103205</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hTCRB.V.1_DNA.J.1_s.3_d.8_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>998.0</input-ng>
+						<tag-id>1142</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>F06</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>F06</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103206_IgHD_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_2</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN2_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103206</sample>
+				<aliquot>S15012103206</aliquot>
+				<sample-path>S15012103206</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hIGH.D.0_DNA.J.0_s.3_d.6_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>998.8</input-ng>
+						<tag-id>1132</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>D05</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>D05</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103206_IgK_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_2</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN2_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103206</sample>
+				<aliquot>S15012103206</aliquot>
+				<sample-path>S15012103206</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hIGK.V.0_DNA.J.0_s.3.q.1455_d.6_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>998.8</input-ng>
+						<tag-id>1133</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>E05</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>E05</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103207_TCG_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_3</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN3_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103207</sample>
+				<aliquot>S15012103207</aliquot>
+				<sample-path>S15012103207</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hTCRG.V.0_DNA.J.0_s.3_d.8_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>997.6</input-ng>
+						<tag-id>1128</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>H04</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>H04</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103208_IgK_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_4</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN4_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103208</sample>
+				<aliquot>S15012103208</aliquot>
+				<sample-path>S15012103208</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hIGK.V.0_DNA.J.0_s.3.q.1455_d.6_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>1011.06</input-ng>
+						<tag-id>1117</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>E03</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>E03</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103208_TCD_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_4</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN4_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103208</sample>
+				<aliquot>S15012103208</aliquot>
+				<sample-path>S15012103208</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hTCRD.VD.0_DNA.DJ.0_s.3_d.8_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>1011.06</input-ng>
+						<tag-id>1119</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>G03</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>G03</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103209_TCD_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_5</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN5_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103209</sample>
+				<aliquot>S15012103209</aliquot>
+				<sample-path>S15012103209</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hTCRD.VD.0_DNA.DJ.0_s.3_d.8_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>1010.8549999999999</input-ng>
+						<tag-id>1111</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>G02</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>G02</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103209_IgHD_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_5</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN5_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103209</sample>
+				<aliquot>S15012103209</aliquot>
+				<sample-path>S15012103209</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hIGH.D.0_DNA.J.0_s.3_d.6_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>1010.8549999999999</input-ng>
+						<tag-id>1108</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>D02</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>D02</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103207_IgHD_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_3</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN3_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103207</sample>
+				<aliquot>S15012103207</aliquot>
+				<sample-path>S15012103207</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hIGH.D.0_DNA.J.0_s.3_d.6_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>997.6</input-ng>
+						<tag-id>1124</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>D04</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>D04</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="CellPool_HighCtrl_0152028381_TCD_r4">
+				<patient-id>CellPool_HighCtrl</patient-id>
+				<project-group>CellPool_HighCtrl</project-group>
+				<sample-type>CellPool_HighCtrl</sample-type>
+				<tissue-type />
+				<disease-type />
+				<received-material />
+				<sample-external-id />
+				<sample>CellPool_HighCtrl_0152028381</sample>
+				<aliquot>CellPool_HighCtrl_0152028381</aliquot>
+				<sample-path>CellPool_HighCtrl_0152028381</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hTCRD.VD.0_DNA.DJ.0_s.3_d.8_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>2000.0</input-ng>
+						<tag-id>1175</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>G10</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>G10</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="WTR_FHCOMP_1_TCG_r1">
+				<patient-id>Water</patient-id>
+				<project-group>Water</project-group>
+				<sample-type>Water</sample-type>
+				<tissue-type />
+				<disease-type />
+				<received-material />
+				<sample-external-id />
+				<sample>WTR_FHCOMP_1</sample>
+				<aliquot>WTR_FHCOMP_1</aliquot>
+				<sample-path>WTR_FHCOMP_1</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hTCRG.V.0_DNA.J.0_s.3_d.8_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>0.0</input-ng>
+						<tag-id>1192</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>H12</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>H12</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103205_TCG_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_1</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN1_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103205</sample>
+				<aliquot>S15012103205</aliquot>
+				<sample-path>S15012103205</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hTCRG.V.0_DNA.J.0_s.3_d.8_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>998.0</input-ng>
+						<tag-id>1144</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>H06</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>H06</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103206_TCB_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_2</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN2_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103206</sample>
+				<aliquot>S15012103206</aliquot>
+				<sample-path>S15012103206</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hTCRB.V.1_DNA.J.1_s.3_d.8_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>998.8</input-ng>
+						<tag-id>1134</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>F05</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>F05</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103208_IgH_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_4</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN4_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103208</sample>
+				<aliquot>S15012103208</aliquot>
+				<sample-path>S15012103208</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hIGH.V.BCEframe.2_DNA.J.0_s.3_d.6</assay>
+				<primer-set>
+					<primer>
+						<input-ng>1011.06</input-ng>
+						<tag-id>1113</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>B03</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>B03</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+					<primer>
+						<input-ng>1011.06</input-ng>
+						<tag-id>1115</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>A03</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>A03</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+					<primer>
+						<input-ng>1011.06</input-ng>
+						<tag-id>1114</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>B03</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>A03</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103208_TCB_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_4</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN4_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103208</sample>
+				<aliquot>S15012103208</aliquot>
+				<sample-path>S15012103208</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hTCRB.V.1_DNA.J.1_s.3_d.8_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>1011.06</input-ng>
+						<tag-id>1118</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>F03</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>F03</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103210_IgH_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_6</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN6_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103210</sample>
+				<aliquot>S15012103210</aliquot>
+				<sample-path>S15012103210</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hIGH.V.BCEframe.2_DNA.J.0_s.3_d.6</assay>
+				<primer-set>
+					<primer>
+						<input-ng>997.4</input-ng>
+						<tag-id>1097</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>C01</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>C01</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+					<primer>
+						<input-ng>997.4</input-ng>
+						<tag-id>1099</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>B01</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>A01</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+					<primer>
+						<input-ng>997.4</input-ng>
+						<tag-id>1098</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>C01</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>B01</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="CellPool_LowCtrl_0152028064_TCD_r4">
+				<patient-id>CellPool_LowCtrl</patient-id>
+				<project-group>CellPool_LowCtrl</project-group>
+				<sample-type>CellPool_LowCtrl</sample-type>
+				<tissue-type />
+				<disease-type />
+				<received-material />
+				<sample-external-id />
+				<sample>CellPool_LowCtrl_0152028064</sample>
+				<aliquot>CellPool_LowCtrl_0152028064</aliquot>
+				<sample-path>CellPool_LowCtrl_0152028064</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hTCRD.VD.0_DNA.DJ.0_s.3_d.8_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>6000.0</input-ng>
+						<tag-id>1183</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>G11</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>G11</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="CellPool_HighCtrl_0152028381_IgH_r5">
+				<patient-id>CellPool_HighCtrl</patient-id>
+				<project-group>CellPool_HighCtrl</project-group>
+				<sample-type>CellPool_HighCtrl</sample-type>
+				<tissue-type />
+				<disease-type />
+				<received-material />
+				<sample-external-id />
+				<sample>CellPool_HighCtrl_0152028381</sample>
+				<aliquot>CellPool_HighCtrl_0152028381</aliquot>
+				<sample-path>CellPool_HighCtrl_0152028381</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hIGH.V.BCEframe.2_DNA.J.0_s.3_d.6</assay>
+				<primer-set>
+					<primer>
+						<input-ng>2000.0</input-ng>
+						<tag-id>1169</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>B10</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>B10</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+					<primer>
+						<input-ng>2000.0</input-ng>
+						<tag-id>1171</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>C10</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>A10</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+					<primer>
+						<input-ng>2000.0</input-ng>
+						<tag-id>1170</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>A10</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>A10</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="WTR_FHCOMP_1_TCD_r1">
+				<patient-id>Water</patient-id>
+				<project-group>Water</project-group>
+				<sample-type>Water</sample-type>
+				<tissue-type />
+				<disease-type />
+				<received-material />
+				<sample-external-id />
+				<sample>WTR_FHCOMP_1</sample>
+				<aliquot>WTR_FHCOMP_1</aliquot>
+				<sample-path>WTR_FHCOMP_1</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hTCRD.VD.0_DNA.DJ.0_s.3_d.8_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>0.0</input-ng>
+						<tag-id>1191</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>G12</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>G12</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103209_TCB_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_5</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN5_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103209</sample>
+				<aliquot>S15012103209</aliquot>
+				<sample-path>S15012103209</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hTCRB.V.1_DNA.J.1_s.3_d.8_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>1010.8549999999999</input-ng>
+						<tag-id>1110</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>F02</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>F02</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103210_IgK_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_6</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN6_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103210</sample>
+				<aliquot>S15012103210</aliquot>
+				<sample-path>S15012103210</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hIGK.V.0_DNA.J.0_s.3.q.1455_d.6_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>997.4</input-ng>
+						<tag-id>1101</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>E01</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>E01</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="CellPool_HighCtrl_0152028381_IgHD_r5">
+				<patient-id>CellPool_HighCtrl</patient-id>
+				<project-group>CellPool_HighCtrl</project-group>
+				<sample-type>CellPool_HighCtrl</sample-type>
+				<tissue-type />
+				<disease-type />
+				<received-material />
+				<sample-external-id />
+				<sample>CellPool_HighCtrl_0152028381</sample>
+				<aliquot>CellPool_HighCtrl_0152028381</aliquot>
+				<sample-path>CellPool_HighCtrl_0152028381</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hIGH.D.0_DNA.J.0_s.3_d.6_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>2000.0</input-ng>
+						<tag-id>1172</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>D10</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>D10</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="CellPool_HighCtrl_0152028381_TCB_r4">
+				<patient-id>CellPool_HighCtrl</patient-id>
+				<project-group>CellPool_HighCtrl</project-group>
+				<sample-type>CellPool_HighCtrl</sample-type>
+				<tissue-type />
+				<disease-type />
+				<received-material />
+				<sample-external-id />
+				<sample>CellPool_HighCtrl_0152028381</sample>
+				<aliquot>CellPool_HighCtrl_0152028381</aliquot>
+				<sample-path>CellPool_HighCtrl_0152028381</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hTCRB.V.1_DNA.J.1_s.3_d.8_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>2000.0</input-ng>
+						<tag-id>1174</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>F10</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>F10</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103210_TCG_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_6</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN6_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103210</sample>
+				<aliquot>S15012103210</aliquot>
+				<sample-path>S15012103210</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hTCRG.V.0_DNA.J.0_s.3_d.8_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>997.4</input-ng>
+						<tag-id>1104</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>H01</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>H01</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="CellPool_LowCtrl_0152028064_IgK_r1">
+				<patient-id>CellPool_LowCtrl</patient-id>
+				<project-group>CellPool_LowCtrl</project-group>
+				<sample-type>CellPool_LowCtrl</sample-type>
+				<tissue-type />
+				<disease-type />
+				<received-material />
+				<sample-external-id />
+				<sample>CellPool_LowCtrl_0152028064</sample>
+				<aliquot>CellPool_LowCtrl_0152028064</aliquot>
+				<sample-path>CellPool_LowCtrl_0152028064</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hIGK.V.0_DNA.J.0_s.3.q.1455_d.6_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>6000.0</input-ng>
+						<tag-id>1181</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>E11</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>E11</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="WTR_FHCOMP_1_IgHD_r1">
+				<patient-id>Water</patient-id>
+				<project-group>Water</project-group>
+				<sample-type>Water</sample-type>
+				<tissue-type />
+				<disease-type />
+				<received-material />
+				<sample-external-id />
+				<sample>WTR_FHCOMP_1</sample>
+				<aliquot>WTR_FHCOMP_1</aliquot>
+				<sample-path>WTR_FHCOMP_1</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hIGH.D.0_DNA.J.0_s.3_d.6_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>0.0</input-ng>
+						<tag-id>1697</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>D12</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>D12</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103205_IgHD_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_1</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN1_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103205</sample>
+				<aliquot>S15012103205</aliquot>
+				<sample-path>S15012103205</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hIGH.D.0_DNA.J.0_s.3_d.6_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>998.0</input-ng>
+						<tag-id>1140</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>D06</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>D06</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103206_IgH_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_2</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN2_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103206</sample>
+				<aliquot>S15012103206</aliquot>
+				<sample-path>S15012103206</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hIGH.V.BCEframe.2_DNA.J.0_s.3_d.6</assay>
+				<primer-set>
+					<primer>
+						<input-ng>998.8</input-ng>
+						<tag-id>1130</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>C05</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>B05</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+					<primer>
+						<input-ng>998.8</input-ng>
+						<tag-id>1129</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>B05</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>B05</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+					<primer>
+						<input-ng>998.8</input-ng>
+						<tag-id>1131</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>C05</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>C05</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103208_TCG_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_4</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN4_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103208</sample>
+				<aliquot>S15012103208</aliquot>
+				<sample-path>S15012103208</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hTCRG.V.0_DNA.J.0_s.3_d.8_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>1011.06</input-ng>
+						<tag-id>1120</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>H03</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>H03</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103208_IgHD_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_4</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN4_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103208</sample>
+				<aliquot>S15012103208</aliquot>
+				<sample-path>S15012103208</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hIGH.D.0_DNA.J.0_s.3_d.6_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>1011.06</input-ng>
+						<tag-id>1116</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>D03</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>D03</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="WTR_FHCOMP_1_TCB_r1">
+				<patient-id>Water</patient-id>
+				<project-group>Water</project-group>
+				<sample-type>Water</sample-type>
+				<tissue-type />
+				<disease-type />
+				<received-material />
+				<sample-external-id />
+				<sample>WTR_FHCOMP_1</sample>
+				<aliquot>WTR_FHCOMP_1</aliquot>
+				<sample-path>WTR_FHCOMP_1</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hTCRB.V.1_DNA.J.1_s.3_d.8_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>0.0</input-ng>
+						<tag-id>1190</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>F12</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>F12</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103205_TCD_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_1</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN1_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103205</sample>
+				<aliquot>S15012103205</aliquot>
+				<sample-path>S15012103205</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hTCRD.VD.0_DNA.DJ.0_s.3_d.8_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>998.0</input-ng>
+						<tag-id>1143</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>G06</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>G06</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103205_IgH_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_1</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN1_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103205</sample>
+				<aliquot>S15012103205</aliquot>
+				<sample-path>S15012103205</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hIGH.V.BCEframe.2_DNA.J.0_s.3_d.6</assay>
+				<primer-set>
+					<primer>
+						<input-ng>998.0</input-ng>
+						<tag-id>1138</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>B06</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>C06</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+					<primer>
+						<input-ng>998.0</input-ng>
+						<tag-id>1139</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>B06</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>A06</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+					<primer>
+						<input-ng>998.0</input-ng>
+						<tag-id>1137</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>C06</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>A06</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103206_TCG_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_2</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN2_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103206</sample>
+				<aliquot>S15012103206</aliquot>
+				<sample-path>S15012103206</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hTCRG.V.0_DNA.J.0_s.3_d.8_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>998.8</input-ng>
+						<tag-id>1136</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>H05</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>H05</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103207_IgH_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_3</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN3_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103207</sample>
+				<aliquot>S15012103207</aliquot>
+				<sample-path>S15012103207</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hIGH.V.BCEframe.2_DNA.J.0_s.3_d.6</assay>
+				<primer-set>
+					<primer>
+						<input-ng>997.6</input-ng>
+						<tag-id>1123</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>B04</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>C04</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+					<primer>
+						<input-ng>997.6</input-ng>
+						<tag-id>1122</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>A04</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>A04</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+					<primer>
+						<input-ng>997.6</input-ng>
+						<tag-id>1121</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>A04</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>C04</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103207_TCB_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_3</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN3_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103207</sample>
+				<aliquot>S15012103207</aliquot>
+				<sample-path>S15012103207</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hTCRB.V.1_DNA.J.1_s.3_d.8_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>997.6</input-ng>
+						<tag-id>1126</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>F04</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>F04</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103209_IgH_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_5</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN5_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103209</sample>
+				<aliquot>S15012103209</aliquot>
+				<sample-path>S15012103209</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hIGH.V.BCEframe.2_DNA.J.0_s.3_d.6</assay>
+				<primer-set>
+					<primer>
+						<input-ng>1010.8549999999999</input-ng>
+						<tag-id>1106</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>A02</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>C02</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+					<primer>
+						<input-ng>1010.8549999999999</input-ng>
+						<tag-id>1105</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>C02</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>A02</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+					<primer>
+						<input-ng>1010.8549999999999</input-ng>
+						<tag-id>1107</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>A02</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>A02</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103209_TCG_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_5</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN5_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103209</sample>
+				<aliquot>S15012103209</aliquot>
+				<sample-path>S15012103209</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hTCRG.V.0_DNA.J.0_s.3_d.8_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>1010.8549999999999</input-ng>
+						<tag-id>1112</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>H02</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>H02</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103210_IgHD_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_6</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN6_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103210</sample>
+				<aliquot>S15012103210</aliquot>
+				<sample-path>S15012103210</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hIGH.D.0_DNA.J.0_s.3_d.6_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>997.4</input-ng>
+						<tag-id>1100</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>D01</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>D01</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103210_TCD_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_6</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN6_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103210</sample>
+				<aliquot>S15012103210</aliquot>
+				<sample-path>S15012103210</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hTCRD.VD.0_DNA.DJ.0_s.3_d.8_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>997.4</input-ng>
+						<tag-id>1103</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>G01</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>G01</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="CellPool_LowCtrl_0152028064_IgH_r3">
+				<patient-id>CellPool_LowCtrl</patient-id>
+				<project-group>CellPool_LowCtrl</project-group>
+				<sample-type>CellPool_LowCtrl</sample-type>
+				<tissue-type />
+				<disease-type />
+				<received-material />
+				<sample-external-id />
+				<sample>CellPool_LowCtrl_0152028064</sample>
+				<aliquot>CellPool_LowCtrl_0152028064</aliquot>
+				<sample-path>CellPool_LowCtrl_0152028064</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hIGH.V.BCEframe.2_DNA.J.0_s.3_d.6</assay>
+				<primer-set>
+					<primer>
+						<input-ng>6000.0</input-ng>
+						<tag-id>1179</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>C11</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>A11</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+					<primer>
+						<input-ng>6000.0</input-ng>
+						<tag-id>1177</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>C11</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>C11</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+					<primer>
+						<input-ng>6000.0</input-ng>
+						<tag-id>1178</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>B11</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>A11</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="CellPool_LowCtrl_0152028064_IgHD_r3">
+				<patient-id>CellPool_LowCtrl</patient-id>
+				<project-group>CellPool_LowCtrl</project-group>
+				<sample-type>CellPool_LowCtrl</sample-type>
+				<tissue-type />
+				<disease-type />
+				<received-material />
+				<sample-external-id />
+				<sample>CellPool_LowCtrl_0152028064</sample>
+				<aliquot>CellPool_LowCtrl_0152028064</aliquot>
+				<sample-path>CellPool_LowCtrl_0152028064</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hIGH.D.0_DNA.J.0_s.3_d.6_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>6000.0</input-ng>
+						<tag-id>1180</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>D11</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>D11</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="CellPool_LowCtrl_0152028064_TCG_r3">
+				<patient-id>CellPool_LowCtrl</patient-id>
+				<project-group>CellPool_LowCtrl</project-group>
+				<sample-type>CellPool_LowCtrl</sample-type>
+				<tissue-type />
+				<disease-type />
+				<received-material />
+				<sample-external-id />
+				<sample>CellPool_LowCtrl_0152028064</sample>
+				<aliquot>CellPool_LowCtrl_0152028064</aliquot>
+				<sample-path>CellPool_LowCtrl_0152028064</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hTCRG.V.0_DNA.J.0_s.3_d.8_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>6000.0</input-ng>
+						<tag-id>1184</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>H11</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>H11</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="CellPool_LowCtrl_0152028064_TCB_r1">
+				<patient-id>CellPool_LowCtrl</patient-id>
+				<project-group>CellPool_LowCtrl</project-group>
+				<sample-type>CellPool_LowCtrl</sample-type>
+				<tissue-type />
+				<disease-type />
+				<received-material />
+				<sample-external-id />
+				<sample>CellPool_LowCtrl_0152028064</sample>
+				<aliquot>CellPool_LowCtrl_0152028064</aliquot>
+				<sample-path>CellPool_LowCtrl_0152028064</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hTCRB.V.1_DNA.J.1_s.3_d.8_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>6000.0</input-ng>
+						<tag-id>1182</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>F11</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>F11</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="CellPool_HighCtrl_0152028381_TCG_r4">
+				<patient-id>CellPool_HighCtrl</patient-id>
+				<project-group>CellPool_HighCtrl</project-group>
+				<sample-type>CellPool_HighCtrl</sample-type>
+				<tissue-type />
+				<disease-type />
+				<received-material />
+				<sample-external-id />
+				<sample>CellPool_HighCtrl_0152028381</sample>
+				<aliquot>CellPool_HighCtrl_0152028381</aliquot>
+				<sample-path>CellPool_HighCtrl_0152028381</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hTCRG.V.0_DNA.J.0_s.3_d.8_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>2000.0</input-ng>
+						<tag-id>1176</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>H10</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>H10</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103205_IgK_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_1</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN1_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103205</sample>
+				<aliquot>S15012103205</aliquot>
+				<sample-path>S15012103205</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hIGK.V.0_DNA.J.0_s.3.q.1455_d.6_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>998.0</input-ng>
+						<tag-id>1141</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>E06</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>E06</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103206_TCD_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_2</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN2_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103206</sample>
+				<aliquot>S15012103206</aliquot>
+				<sample-path>S15012103206</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hTCRD.VD.0_DNA.DJ.0_s.3_d.8_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>998.8</input-ng>
+						<tag-id>1135</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>G05</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>G05</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103207_IgK_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_3</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN3_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103207</sample>
+				<aliquot>S15012103207</aliquot>
+				<sample-path>S15012103207</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hIGK.V.0_DNA.J.0_s.3.q.1455_d.6_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>997.6</input-ng>
+						<tag-id>1125</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>E04</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>E04</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103207_TCD_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_3</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN3_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103207</sample>
+				<aliquot>S15012103207</aliquot>
+				<sample-path>S15012103207</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hTCRD.VD.0_DNA.DJ.0_s.3_d.8_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>997.6</input-ng>
+						<tag-id>1127</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>G04</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>G04</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103209_IgK_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_5</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN5_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103209</sample>
+				<aliquot>S15012103209</aliquot>
+				<sample-path>S15012103209</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hIGK.V.0_DNA.J.0_s.3.q.1455_d.6_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>1010.8549999999999</input-ng>
+						<tag-id>1109</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>E02</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>E02</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+			<experiment id="S15012103210_TCB_r3">
+				<disease-type>aALL</disease-type>
+				<received-material>DNA</received-material>
+				<patient-id>FH_6</patient-id>
+				<project-group />
+				<sample-type>Calibration</sample-type>
+				<tissue-type>blood</tissue-type>
+				<sample-external-id>CSTRN6_FH</sample-external-id>
+				<submitter-name>Doe.John</submitter-name>
+				<submitter-id>null</submitter-id>
+				<sample>S15012103210</sample>
+				<aliquot>S15012103210</aliquot>
+				<sample-path>S15012103210</sample-path>
+				<compartment>cellular</compartment>
+				<cell-process-route />
+				<assay>hTCRB.V.1_DNA.J.1_s.3_d.8_g.0</assay>
+				<primer-set>
+					<primer>
+						<input-ng>997.4</input-ng>
+						<tag-id>1102</tag-id>
+						<first-PCR-plate>1PCR_FHCOMP_2</first-PCR-plate>
+						<first-PCR-well>F01</first-PCR-well>
+						<second-PCR-plate>2PCR_FHCOMP_2</second-PCR-plate>
+						<second-PCR-well>F01</second-PCR-well>
+						<input-ml>-1</input-ml>
+					</primer>
+				</primer-set>
+			</experiment>
+		</experiments>
+	</lane>
+</run>

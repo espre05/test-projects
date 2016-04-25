@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:oxm="http://www.springframework.org/schema/oxm"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation=
+    "http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+    http://www.springframework.org/schema/oxm http://www.springframework.org/schema/oxm/spring-oxm.xsd">
+
+	<context:component-scan base-package="ab.xml" />
+
+
+	<bean id="jaxb2Marshaller" class="org.springframework.oxm.jaxb.Jaxb2Marshaller">
+		<property name="schema" value="classpath:ab/xml/schema/Parent-1.0.xsd" />
+		<property name="packagesToScan" value="ab.xml.gen.v1.jaxb" />
+		   <property name="marshallerProperties">
+        <map>
+            <entry key="jaxb.formatted.output">
+                <value type="boolean">true</value>
+            </entry>
+        </map>
+    </property>
+	</bean>
+</beans>

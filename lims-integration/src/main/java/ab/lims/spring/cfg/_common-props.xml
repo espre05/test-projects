@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+	http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+		">
+	<bean name="host" class="java.net.InetAddress" factory-method="getLocalHost" />
+	<!--property name="hostname" value="#{host.canonicalHostName}" /-->
+
+	<bean id="placeholderConfigurer"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"
+		lazy-init="false">
+		<property name="ignoreResourceNotFound" value="true" />
+		<property name="ignoreUnresolvablePlaceholders" value="true" /> <!-- DO NOT SET ignoreUnresolvablePlaceholders=false - WASTED 1hr of my time 
+			debugging -->
+		<property name="systemPropertiesModeName" value="SYSTEM_PROPERTIES_MODE_OVERRIDE" />
+		<property name="searchSystemEnvironment" value="true" />
+		<!--property name="searchContextAttributes" value="true" / -->
+		<!--property name="contextOverride" value="true" / -->
+		<property name="locations">
+			<list>
+				<value>classpath:/ab/lims/env/common/app.properties</value>
+				<value>classpath:/ab/lims/env/${DEPLOYMENT_ENV}/app.properties
+				</value>
+				<value>classpath:/ab/lims/env/${DEPLOYMENT_ENV}/${DEPLOYMENT_ENV}-${APP_INSTANCE}-app.properties
+				</value>
+				<value>file://///Rome/Public/IT/LIMS/CLIA/LIMS_RUNTIME_OVERRIDE_CONFIG/${DEPLOYMENT_ENV}-${APP_INSTANCE}-app-OVERRIDE.properties
+				</value>
+				<!--value>file:/some/resource/path/pwdfile.properites</value -->
+			</list>
+		</property>
+		<property name="properties">
+			<util:properties>
+				<prop key="hostname">#{host.hostName}</prop>
+			</util:properties>
+		</property>
+
+	</bean>
+
+</beans>

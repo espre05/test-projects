@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_gp-ZZ-JlEeWMKo3-reoeaA" id="_gpc08OJlEeWMKo3-reoeaA" label="ICD_Codes" purpose="icd" description="icd" creationDate="2016-03-04T16:02:11.521-0800" modificationDate="2016-03-04T15:57:45.354-0800" version="0.1" statusCode="" item="_gp_AcOJlEeWMKo3-reoeaA" displayName="ICD_Codes">
+    <author href="../../talend.project#_8tSVcMrzEeWj3ckk5urWnw"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_gp-ZaOJlEeWMKo3-reoeaA" path="" locked="true" lockDate="2016-03-04T16:23:05.221-0800">
+    <locker href="../../talend.project#_8tSVcMrzEeWj3ckk5urWnw"/>
+  </TalendProperties:ItemState>
+  <TalendProperties:ExcelFileConnectionItem xmi:id="_gp_AcOJlEeWMKo3-reoeaA" property="_gp-ZZ-JlEeWMKo3-reoeaA" state="_gp-ZaOJlEeWMKo3-reoeaA">
+    <connection href="ICD_Codes_0.1.item#_gp-ZYOJlEeWMKo3-reoeaA"/>
+  </TalendProperties:ExcelFileConnectionItem>
+</xmi:XMI>

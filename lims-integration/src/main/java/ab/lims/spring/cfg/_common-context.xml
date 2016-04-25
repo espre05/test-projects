@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+	http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+	http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd
+		">
+	<import resource="classpath:/ab/lims/spring/cfg/_common-props.xml" />
+	<context:annotation-config />
+	<context:component-scan base-package="ab.lims" />
+	<context:component-scan base-package="ab.xml" />
+	<context:component-scan base-package="labvantage.sequenta.lims.actions" />
+	<!-- Beans -->
+	<bean id="limsLabvantageService" class="ab.lims.service.LimsServiceLV7Impl" />
+
+
+	<!-- this bean must not be lazily initialized if the exporting is to happen -->
+	<!--bean id="exporter" class="org.springframework.jmx.export.MBeanExporter" 
+		lazy-init="false"> <property name="assembler" ref="assembler" /> <property 
+		name="namingStrategy" ref="namingStrategy" /> <property name="autodetect" 
+		value="true" /> </bean> <bean id="jmxAttributeSource" class="org.springframework.jmx.export.annotation.AnnotationJmxAttributeSource" 
+		/> <bean id="assembler" class="org.springframework.jmx.export.assembler.MetadataMBeanInfoAssembler"> 
+		<property name="attributeSource" ref="jmxAttributeSource" /> </bean> <bean 
+		id="namingStrategy" class="org.springframework.jmx.export.naming.MetadataNamingStrategy"> 
+		<property name="attributeSource" ref="jmxAttributeSource" /> </bean -->
+
+	<!--bean id="customConnectionFactory" class="com.rabbitmq.client.ConnectionFactory"
+		lazy-init="true">
+		<property name="host" value="${mq.host}" />
+		<property name="port" value="${mq.port}" />
+		<property name="username" value="${mq.uid}" /> <property name="password" 
+			value="${mq.pwd}" />
+	</bean-->
+	<!-- Enable handling of java.util.logging through SLF4J -->
+	<!--bean id="slf4JBridgeHandler" class="org.slf4j.bridge.SLF4JBridgeHandler" 
+		init-method="removeHandlersForRootLogger" /> <bean class="org.slf4j.bridge.SLF4JBridgeHandler" 
+		init-method="install" depends-on="slf4JBridgeHandler" / -->
+
+	<!-- SET default mail properties -->
+	<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+		<property name="host" value="smtp.gmail.com" />
+		<property name="port" value="587" />
+		<property name="username" value="robot.prem@gmail.com" />
+		<property name="password" value="AdSeq123" />
+		<property name="protocol" value="smtp" />
+		<property name="defaultEncoding" value="UTF-8" />
+		<property name="javaMailProperties">
+			<props>
+				<prop key="mail.smtp.auth">true</prop>
+				<prop key="mail.smtp.starttls.enable">true</prop>
+				<prop key="mail.smtp.quitwait">false</prop>
+				<prop key="mail.mime.charset">UTF-8</prop>
+			</props>
+		</property>
+	</bean>
+
+	<!-- You can have some pre-configured messagess also which are ready to 
+		send -->
+	<!--bean id="preConfiguredMessage" class="org.springframework.mail.SimpleMailMessage">
+		<property name="to" value="pnatarajan@adaptivebiotech.com"></property>
+		<property name="from" value="noreply@adaptivebiotech.com"></property>
+		<property name="subject" value="${DEPLOYMENT_ENV} FATAL - ActionError " />
+	</bean-->
+
+	<task:executor id="executorService" pool-size="10" />
+	<task:annotation-driven executor="executorService" />
+	
+	
+    <bean id="dataSource" class="oracle.jdbc.pool.OracleDataSource" destroy-method="close">
+        <property name="URL" value="jdbc:oracle:thin:@//localhost:1521/orcl" />
+        <property name="user" value="labvantage"/>
+        <property name="password" value="labvantage"/>
+        <property name="connectionCachingEnabled" value="true"/>
+    </bean>
+    
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+    	<property name="dataSource" ref="dataSource"/>
+	</bean>
+
+</beans>

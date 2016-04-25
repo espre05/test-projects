@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sample-list>
+	<sample id="S14121802831">
+		<analysis-type>MRD</analysis-type>
+		<calibration-pk>1407</calibration-pk>
+		<analysis-version />
+		<input-analyses>
+			<analysis experiment-name="S14121802831_IgH" pk="12832"
+				version="8.0" />
+			<analysis experiment-name="S14121802831_IgK" pk="12840"
+				version="8.0" />
+		</input-analyses>
+	</sample>
+	<sample id="S15012903281">
+		<analysis-type>MRD</analysis-type>
+		<calibration-pk>2670</calibration-pk>
+		<analysis-version />
+		<input-analyses>
+			<analysis experiment-name="S15012903281_IgH" pk="12835"
+				version="8.0" />
+			<analysis experiment-name="S15012903281_TCG" pk="12849"
+				version="8.0" />
+		</input-analyses>
+	</sample>
+	<sample id="S15012903282">
+		<analysis-type>MRD</analysis-type>
+		<calibration-pk>3369</calibration-pk>
+		<analysis-version />
+		<input-analyses>
+			<analysis experiment-name="S15012903282_IgH" pk="12836"
+				version="8.0" />
+		</input-analyses>
+	</sample>
+	<sample id="S15012903284">
+		<analysis-type>MRD</analysis-type>
+		<calibration-pk>4444</calibration-pk>
+		<analysis-version />
+		<input-analyses>
+			<analysis experiment-name="S15012903284_TCG" pk="12850"
+				version="8.0" />
+			<analysis experiment-name="S15012903284_IgH" pk="12837"
+				version="8.0" />
+		</input-analyses>
+	</sample>
+	<sample id="S15012803270">
+		<analysis-type>MRD</analysis-type>
+		<calibration-pk>3035</calibration-pk>
+		<analysis-version />
+		<input-analyses>
+			<analysis experiment-name="S15012803270_IgH" pk="12833"
+				version="8.0" />
+			<analysis experiment-name="S15012803270_IgK" pk="12841"
+				version="8.0" />
+		</input-analyses>
+	</sample>
+	<sample id="S15012803273">
+		<analysis-type>MRD</analysis-type>
+		<calibration-pk>2865</calibration-pk>
+		<analysis-version />
+		<input-analyses>
+			<analysis experiment-name="S15012803273_IgK" pk="12842"
+				version="8.0" />
+		</input-analyses>
+	</sample>
+	<sample id="S15012803274">
+		<analysis-type>MRD</analysis-type>
+		<calibration-pk>4333</calibration-pk>
+		<analysis-version />
+		<input-analyses>
+			<analysis experiment-name="S15012803274_IgH" pk="12834"
+				version="8.0" />
+		</input-analyses>
+	</sample>
+	<sample id="S15013003297">
+		<analysis-type>MRD</analysis-type>
+		<calibration-pk>4490</calibration-pk>
+		<analysis-version />
+		<input-analyses>
+			<analysis experiment-name="S15013003297_IgK" pk="12843"
+				version="8.0" />
+			<analysis experiment-name="S15013003297_TCG" pk="12851"
+				version="8.0" />
+		</input-analyses>
+	</sample>
+	<sample id="S15013003298">
+		<analysis-type>MRD</analysis-type>
+		<calibration-pk>3327</calibration-pk>
+		<analysis-version />
+		<input-analyses>
+			<analysis experiment-name="S15013003298_IgH" pk="12838"
+				version="8.0" />
+		</input-analyses>
+	</sample>
+</sample-list>

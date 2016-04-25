@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <parameters>
+    <routinesParameter id="_9lgW4MrzEeWj3ckk5urWnw" name="DataOperation"/>
+    <routinesParameter id="_9moYQMrzEeWj3ckk5urWnw" name="Mathematical"/>
+    <routinesParameter id="_9m0lgMrzEeWj3ckk5urWnw" name="Numeric"/>
+    <routinesParameter id="_9m76QMrzEeWj3ckk5urWnw" name="Relational"/>
+    <routinesParameter id="_9nD2EMrzEeWj3ckk5urWnw" name="StringHandling"/>
+    <routinesParameter id="_9nOOIMrzEeWj3ckk5urWnw" name="TalendDataGenerator"/>
+    <routinesParameter id="_9nXYEMrzEeWj3ckk5urWnw" name="TalendDate"/>
+    <routinesParameter id="_9njlUMrzEeWj3ckk5urWnw" name="TalendString"/>
+    <routinesParameter id="_8qwkYFjNEdyj6eiqDt60Og" name="DemoRoutines"/>
+    <routinesParameter id="_HKXfQGIZEd26GZmhFZLTPA" name="GetRandomPhoneNum"/>
+  </parameters>
+</talendfile:ProcessType>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="request" type="requestType"/>
+  <xs:complexType name="laneType">
+    <xs:sequence>
+      <xs:element type="experimentsType" name="experiments"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="id" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="runsType">
+    <xs:sequence>
+      <xs:element type="runType" name="run" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="primer-setType">
+    <xs:sequence>
+      <xs:element type="primerType" name="primer" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="requestType">
+    <xs:sequence>
+      <xs:element type="runsType" name="runs"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="runType">
+    <xs:sequence>
+      <xs:element type="laneType" name="lane"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="id" use="optional"/>
+    <xs:attribute type="xs:string" name="msgType" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="primerType">
+    <xs:sequence>
+      <xs:element name="input-ng" type="xs:double">
+      </xs:element>
+      <xs:element type="xs:short" name="tag-id"/>
+      <xs:element type="xs:string" name="first-PCR-plate"/>
+      <xs:element type="xs:string" name="first-PCR-well"/>
+      <xs:element type="xs:string" name="second-PCR-plate"/>
+      <xs:element type="xs:string" name="second-PCR-well"/>
+      <xs:element type="xs:byte" name="input-ml"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="experimentsType">
+    <xs:sequence>
+      <xs:element type="experimentType" name="experiment" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="experimentType">
+    <xs:choice maxOccurs="unbounded" minOccurs="0">
+      <xs:element name="patient-id" type="xs:string">
+      </xs:element>
+      <xs:element name="project-group" type="xs:string">
+      </xs:element>
+      <xs:element name="sample-type" type="xs:string">
+      </xs:element>
+      <xs:element name="tissue-type" type="xs:string">
+      </xs:element>
+      <xs:element name="disease-type" type="xs:string">
+      </xs:element>
+      <xs:element name="received-material" type="xs:string">
+      </xs:element>
+      <xs:element name="sample-external-id" type="xs:string">
+      </xs:element>
+      <xs:element name="sample" type="xs:string">
+      </xs:element>
+      <xs:element name="aliquot" type="xs:string">
+      </xs:element>
+      <xs:element name="sample-path" type="xs:string">
+      </xs:element>
+      <xs:element type="xs:string" name="compartment"/>
+      <xs:element type="xs:string" name="cell-process-route"/>
+      <xs:element name="assay" type="xs:string">
+      </xs:element>
+      <xs:element type="primer-setType" name="primer-set"/>
+      <xs:element type="xs:string" name="submitter-name"/>
+      <xs:element type="xs:short" name="submitter-id"/>
+    </xs:choice>
+    <xs:attribute type="xs:string" name="id" use="optional"/>
+  </xs:complexType>
+</xs:schema>

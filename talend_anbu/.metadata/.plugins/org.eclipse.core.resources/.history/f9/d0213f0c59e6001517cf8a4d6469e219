@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_6MNU0OZHEeW21eKyRilL3Q" id="_6MMGsOZHEeW21eKyRilL3Q" label="orders" creationDate="2016-03-09T14:40:22.685-0800" modificationDate="2016-03-09T16:42:04.217-0800" version="0.1" statusCode="" item="_6MNU0uZHEeW21eKyRilL3Q" displayName="orders">
+    <author href="../../../../talend.project#_8tSVcMrzEeWj3ckk5urWnw"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_6MNU0eZHEeW21eKyRilL3Q" path="test_jobs/schema/sf_to_local" locked="true" lockDate="2016-03-09T14:40:22.902-0800">
+    <locker href="../../../../talend.project#_8tSVcMrzEeWj3ckk5urWnw"/>
+  </TalendProperties:ItemState>
+  <TalendProperties:ProcessItem xmi:id="_6MNU0uZHEeW21eKyRilL3Q" property="_6MNU0OZHEeW21eKyRilL3Q" state="_6MNU0eZHEeW21eKyRilL3Q">
+    <process href="orders_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>
