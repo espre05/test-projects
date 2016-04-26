@@ -16,6 +16,9 @@ import org.springframework.stereotype.Component;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.client.RestTemplate;
 
+import com.genologics.ri.project.Project;
+import com.genologics.ri.project.ProjectLink;
+import com.genologics.ri.project.Projects;
 import com.genologics.ri.sample.Sample;
 import com.genologics.ri.sample.SampleLink;
 import com.genologics.ri.sample.Samples;
@@ -24,24 +27,37 @@ import demo.clarity.RestHostConfig;
 import demo.lims.AppException;
 
 @Component
-public class ClarityRepoSpringImpl {
+public class ClarityRepoSpringImpl implements ClarityRepo {
 
-	@Autowired RestTemplate restTemplate;
-	@Autowired RestHostConfig config;
-	
+	@Autowired
+	RestTemplate restTemplate;
+	@Autowired
+	RestHostConfig config;
 
+	@Override
 	public List<Sample> getSamples() {
-		Samples samples = restTemplate.getForObject(config.basePath.toString()+ "samples", Samples.class);
+		Samples samples = restTemplate.getForObject(config.basePath.toString() + "samples", Samples.class);
 		List<SampleLink> links = samples.getSample();
 		List<Sample> sampleList = new ArrayList<>(links.size());
-		links.stream().forEach(s ->{
+		links.stream().forEach(s -> {
 			Sample sample = restTemplate.getForObject(s.getUri(), Sample.class);
 			sampleList.add(sample);
 		});
-		
+
 		return sampleList;
 	}
 
+	@Override
+	public List<Project> getProjects() {
+		Projects projects = restTemplate.getForObject(config.basePath.toString() + "projects", Projects.class);
+		List<ProjectLink> links = projects.getProject();
+		List<Project> projectList = new ArrayList<>(links.size());
+		links.stream().forEach(s -> {
+			Project project = restTemplate.getForObject(s.getUri(), Project.class);
+			projectList.add(project);
+		});
+		return projectList;
+	}
 
 	@Autowired
 	private Marshaller marshaller;
@@ -79,10 +95,11 @@ public class ClarityRepoSpringImpl {
 			fis.close();
 		}
 	}
-	public Object toObject(InputStream is){
+
+	public Object toObject(InputStream is) {
 		try {
 			return unmarshaller.unmarshal(new StreamSource(is));
-		}catch(Exception e){
+		} catch (Exception e) {
 			throw new AppException(e);
 		}
 	}

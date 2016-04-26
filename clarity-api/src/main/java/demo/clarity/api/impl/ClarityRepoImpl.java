@@ -28,13 +28,14 @@ import com.genologics.ri.sample.Samples;
 import demo.clarity.RestHostConfig;
 import demo.lims.AppException;
 
-public class ClarityRepoImpl {
+public class ClarityRepoImpl implements ClarityRepo {
 	private RestHostConfig config;
 	RestTemplate restTemplate;
 	private Marshaller marshaller;
 	private Unmarshaller unmarshaller;
 
 	//api - get
+	@Override
 	public List<Sample> getSamples() {
 		Samples samples = restTemplate.getForObject(config.basePath.toString()+ "samples", Samples.class);
 		List<SampleLink> links = samples.getSample();
@@ -46,6 +47,7 @@ public class ClarityRepoImpl {
 		return sampleList;
 	}
 
+	@Override
 	public List<Project> getProjects() {
 		Projects projects = restTemplate.getForObject(config.basePath.toString()+ "projects", Projects.class);
 		List<ProjectLink> links = projects.getProject();
