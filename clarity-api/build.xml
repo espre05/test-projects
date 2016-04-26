@@ -1,0 +1,43 @@
+<project name="immunolimstest" default="generate-jaxb-code" basedir=".">
+
+	<property name="wadl2java.project" value="C:\apps\apache-cxf-3.1.1\" />
+	<property name="file.wadl" value="src/gen/java/ab/clarity/schema/application.wadl" />
+	<property name="wadl.gen.package" value="ab.clarity.wadl" />
+	<property name="wadl.gen.outDir" value="src/gen/java" />
+
+	<!--taskdef name="wjc" classname="org.jvnet.ws.wadl2java.WJCTask">
+		<classpath>
+			<fileset dir="${wadl2java.project}/lib" includes="*.jar" excludes="wadl-cmdline*.jar" />
+		</classpath>
+	</taskdef-->
+
+	<!--target name="-pre-compile">
+		<echo message="Compiling the description..." />
+		<wjc description="${file.wadl}" package="${wadl.gen.package}" autoSchemaPackage="true|false" target="outputDir">
+			<customizations dir="." includes="customization" />
+			<produces dir="${wadl.gen.outDir}" includes="**/*.java" />
+			<depends dir="." includes="*.xsd" />
+			<depends dir="." includes="build.xml" />
+			<depends dir="${wadl2java.project}" includes="wadl2java.jar" />
+			<customClassName uri="http://www.bbc.co.uk" classname="BBCSchedule" />
+		</wjc>
+	</target-->
+
+	<target name="generateJaxbObjects" description="Generate Java obj from xsd">
+		<taskdef name="xjc" classname="com.sun.tools.xjc.XJCTask" />
+		<xjc destdir="src/gen/java/" extension="true">
+			<schema dir="src/main/xsd" includes="JaxbBindings.xsd,CoreTypes.xsd" />
+		</xjc>
+	</target>
+
+	<target name="generate-jaxb-code">
+		<exec executable="xjc.exe">
+			<arg value="-p" />
+			<arg value="ab.xml.gen.v1.jaxb" />
+			<arg value="-d" />
+			<arg value="src/gen/java" />
+			<arg value="src/main/java/ab/xml/schema" />
+		</exec>
+	</target>
+
+</project>
